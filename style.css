@@ -17,9 +17,9 @@ body{
 }
 .list1{
     position: fixed;
-    left:150px;
+    left:135px;
     top:50px;
-    height: 70%;
+    height: 80%;
     border-right: solid 1px;
 }
 .list1 ul li {
@@ -52,4 +52,13 @@ body{
 .footer a{
     text-decoration: none;
     color: black;
+}
+.content{
+    width: 65%;
+    height: 70%;
+    position: absolute;
+    border:solid 1px;
+    left: 55%;
+    top:45%;
+    transform: translate(-50%, -50%);
 }
