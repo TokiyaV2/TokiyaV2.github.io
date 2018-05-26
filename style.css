@@ -175,6 +175,51 @@ body{
     margin-bottom: 20px;
     border-bottom:solid 1px;
 }
+.storearea{
+    width:100%;
+    height: 120px;
+    position: relative;
+    margin-bottom:20px; 
+}
+.storearea ul{
+    width: 100%;
+    position: absolute;
+    top:50px;
+    display:flex;
+    justify-content: space-around;    
+}
+.storearea ul li{
+    list-style: none;
+    width:30%;
+}
+.storearea ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+.storeline{
+    width: 80%;
+    height: 80px;
+    border-top:solid 1px; 
+    margin:0 auto;
+}
+.store{
+    width: 100%;
+    height: 1300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.storeinf{
+    width: 45%;
+    height: 300px;
+    border:solid 1px;
+}
+.storepic{
+    width: 100%;
+    height: 220px;
+    border:solid 1px;
+}
 .title{
     width:60px;
     height: 200px;
