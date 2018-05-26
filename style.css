@@ -99,16 +99,16 @@ body{
 .menupic{
     width: 100%;
     position: absolute;
-    height:900px;
-    top:150px;
+    height:300px;
+    top:300px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;;
+    justify-content: space-evenly;
 
 }
 .foodpic{
-    width: 45%;
-    height: 200px;
+    width: 20%;
+    height: 100px;
     border: solid 1px;
 }
 .member{
@@ -219,6 +219,150 @@ body{
     width: 100%;
     height: 220px;
     border:solid 1px;
+}
+.comment_form{
+    width: 100%;
+    position: absolute;
+    top:80px;
+    border:dotted 2px;
+}
+.box1{
+    width:100%;
+    height: 50px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.boxtxt{
+    position: absolute;
+    top:50%;
+    left:20px;
+    transform: translate(0,-50%);
+}
+.boxinput{
+    position: absolute;
+    top:10px;
+    right:250px;
+}
+.box1 input{
+    width: 200px;
+    height:30px;
+}
+.box2{
+    width: 100%;
+    height:50px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.boxtxt2{
+    position: absolute;
+    top:50%;
+    left:20px;
+    transform: translate(0,-50%);
+}
+.box3{
+    width: 100%;
+    height: 120px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.box3 p{
+    margin-left: 20px;
+}
+.box3 label{
+    margin-left: 20px;
+}
+.box3 .boxinput{
+    position: absolute;
+    top:35px;
+}
+.box3 .boxinput2{
+    position: absolute;
+    top:70px;
+    right:250px
+}
+.box3 input{
+    width: 200px;
+    height: 30px;
+}
+.box4{
+    width: 100%;
+    height: 50px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.box4 p{
+    margin-left:20px;
+}
+.box4 .boxinput{
+    right:250px;
+    top: 0px;
+}
+.box4 input{
+    width: 200px;
+    height: 30px;
+}
+.box5{
+    width: 100%;
+    height: 50px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.box5 p{
+    margin-left: 20px;
+}
+.selctor{
+    position: absolute;
+    top:0;
+    right:250px;
+    /* transform: translate(0,-50%); */
+}
+.box5 select{
+    width: 200px;
+    height: 30px;
+}
+.box6{
+    width: 100%;
+    height: 50px;
+    border-bottom:dotted 1px;
+    position: relative;
+}
+.box6 p{
+    margin-left:20px;
+    /* margin-top:25px; */
+}
+.box6 .boxinput{
+    right:250px;
+    top:0px;
+}
+.box6 input{
+    width: 200px;
+    height: 30px;
+}
+.box7{
+    width: 100%;
+    height: 140px;
+    position: relative;
+}
+.box7 p{
+    margin-left:20px;
+}
+.box7 .boxinput{
+    right:100px;
+    top:18px;
+}
+.box7 input{
+    width: 350px;
+    height: 100px;
+}
+.box8{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+.box8 .block5{
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 .title{
     width:60px;
