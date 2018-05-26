@@ -1,6 +1,4 @@
-*{
-    /* border:solid 1px; */
-}
+*{}
 body{
     margin:0;
     padding: 0;
@@ -78,6 +76,7 @@ body{
     margin:0 auto;
     width:65%;
     border:solid 1px;
+    position: relative;
 }
 .brandstory{
     width: 100%;
@@ -90,7 +89,30 @@ body{
     width: 100%;
     height:462px;
     border:solid 1px;
-} 
+}
+.menutext{
+    width: 100%;
+    /* height: 300px; */
+    text-align: center;
+    position: absolute;
+    top:80px;
+    font-size: 40px;
+}
+.menupic{
+    width: 100%;
+    position: absolute;
+    height:900px;
+    top:150px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;;
+
+}
+.foodpic{
+    width: 45%;
+    height: 200px;
+    border: solid 1px;
+}
 .title{
     width:60px;
     height: 200px;
