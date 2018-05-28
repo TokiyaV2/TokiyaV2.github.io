@@ -110,7 +110,7 @@ body{
     width: 100%;
     position: absolute;
     height:300px;
-    top:300px;
+    top:250px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -124,7 +124,7 @@ body{
 .member{
     width:100%;
     position:absolute;
-    top: 250px;
+    top: 180px;
 }
 .member_title{
     text-align: center;
@@ -362,6 +362,7 @@ body{
     width: 100%;
     height: 140px;
     position: relative;
+    border-bottom: dotted 1px;
 }
 .box7 p{
     margin-left:20px;
@@ -539,4 +540,8 @@ body{
     height: 120px;
     font-size: 20px;
     text-align: center
+}
+.blank{
+    width: 100%;
+    height: 100px;
 }
