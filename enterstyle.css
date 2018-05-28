@@ -8,6 +8,8 @@ body{
     margin:0;
     padding:0;
     position: relative;
+    /* background-image: url("img/底圖-02.png"); */
+    background-size: cover;
 }
 .all{
     width: 83.3vw;
@@ -21,6 +23,8 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-content: space-between;
+    /* background-image: url(img/中間圖-03.png); */
+    background-size: cover;
 }
 .pic1,.pic2,.pic3,.pic4{
     width: 24%;
@@ -36,24 +40,26 @@ body{
     max-width: 420px;
     height: 33vw;
     max-height: 420px;
-    border:solid 1px;
+    /* border:solid 1px; */
     border-radius: 50%;
     position: absolute;;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+    background-image: url(img/logo-02.png);
+    background-size: cover;
 }
 .enter{
     width: 80px;
     height: 25px;
     position: absolute;
     bottom:35vh;
-    left:47%;
+    left:48%;
     text-align: center;
 }
 .enter_btn{
     font-size: 18px;
     text-decoration: none;
-    color:black;
+    color:white;
     border:solid 0;
 }
