@@ -2,11 +2,33 @@
 body{
     margin:0;
     padding: 0;
+    /* height: 100vh; */
+    /* background-image: url(img/底圖-02.png);
+    background-size: cover; */
 }
-.contanier{
+.container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
+}
+.container2{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
+}
+.container3{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
 }
 .logo{
     position: fixed;
@@ -106,15 +128,32 @@ body{
     top:80px;
     font-size: 40px;
 }
+.menuline{
+    width: 5vw;
+    height: 1vw;
+    position: absolute;
+    top:150px;
+    left:50%;
+    transform: translate(-50%,0);
+    border-bottom:solid 1px;
+}
+.menuline2{
+    width: 5vw;
+    height: 1vw;
+    position: absolute;
+    top:180px;
+    left:50%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
 .menupic{
     width: 100%;
     position: absolute;
     height:300px;
-    top:300px;
+    top:250px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 .foodpic{
     width: 20%;
@@ -124,7 +163,7 @@ body{
 .member{
     width:100%;
     position:absolute;
-    top: 250px;
+    top: 180px;
 }
 .member_title{
     text-align: center;
@@ -362,6 +401,7 @@ body{
     width: 100%;
     height: 140px;
     position: relative;
+    border-bottom: dotted 1px;
 }
 .box7 p{
     margin-left:20px;
@@ -539,4 +579,8 @@ body{
     height: 120px;
     font-size: 20px;
     text-align: center
+}
+.blank{
+    width: 100%;
+    height: 100px;
 }
