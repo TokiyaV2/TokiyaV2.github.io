@@ -2,11 +2,33 @@
 body{
     margin:0;
     padding: 0;
+    /* height: 100vh; */
+    /* background-image: url(img/底圖-02.png);
+    background-size: cover; */
 }
-.contanier{
+.container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
+}
+.container2{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
+}
+.container3{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    /* border:solid 1px; */
+    background-image: url(img/底圖-02.png);
+    background-size: cover;
 }
 .logo{
     position: fixed;
