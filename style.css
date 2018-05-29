@@ -592,36 +592,174 @@ p{
 }
 .storepic1{
     background-image: url(store/instore/middle/1.jpg)
-
+}
+.storepic1:hover{
+    background-image: url(store/address/middle/1.jpg);
+    transition: 0.5s ease-in;
 }
 .storepic2{
     background-image: url(store/instore/middle/2.jpg)
-
+}
+.storepic2:hover{
+    background-image: url(store/address/middle/2.jpg);
+    transition: 0.5s ease-in;
 }
 .storepic3{
     background-image: url(store/instore/middle/3.jpg)
 }
+.storepic3:hover{
+    background-image: url(store/address/middle/3.jpg);
+    transition: 0.5s ease-in;
+}
 .storepic4{
     background-image: url(store/instore/middle/4.jpg)
 }
+.storepic4:hover{
+    background-image: url(store/address/middle/4.jpg);
+    transition: 0.5s ease-in;
+}
 .storepic5{
     background-image: url(store/instore/middle/5.jpg)
-
+}
+.storepic5:hover{
+    background-image: url(store/address/middle/5.jpg);
+    transition: 0.5s ease-in;
 }
 .storepic6{
     background-image: url(store/instore/middle/6.jpg)
-
+}
+.storepic6:hover{
+    background-image: url(store/address/middle/6.jpg);
+    transition: 0.5s ease-in;
 }
 .storepic7{
     background-image: url(store/instore/middle/7.jpg)
-
+}
+.storepic7:hover{
+    background-image: url(store/address/middle/7.jpg);
+    transition: 0.5s ease-in;
 }
 .storepic8{
     background-image: url(store/instore/middle/8.jpg)
+}
+.storepic8:hover{
+    background-image: url(store/address/middle/8.jpg);
+    transition: 0.5s ease-in;
+}
 
+
+
+.storepic9{
+    background-image: url(store/instore/)
 }
-.storepic1:hover{
-    background-image: url(store/address/middle/1.jpg)
+.storepic9:hover{
+    background-image: 
+    transition: 0.5s ease-in;
 }
+.storepic10{
+    background-image: 
+}
+.storepic10:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic11{
+    background-image: 
+}
+.storepic11:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic12{
+    background-image: 
+}
+.storepic12:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic13{
+    background-image: 
+}
+.storepic13:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic14{
+    background-image: 
+}
+.storepic14:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic15{
+    background-image: 
+}
+.storepic15:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic16{
+    background-image: 
+}
+.storepic16:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+
+
+.storepic17{
+    background-image: 
+}
+.storepic17:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic18{
+    background-image: 
+}
+.storepic18:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic19{
+    background-image: 
+}
+.storepic19:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic20{
+    background-image: 
+}
+.storepic20:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic21{
+    background-image: 
+}
+.storepic21:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic22{
+    background-image: 
+}
+.storepic22:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+.storepic23{
+    background-image: 
+}
+.storepic23:hover{
+    background-image: 
+    transition: 0.5s ease-in;
+}
+
+
+
+
+
 
 
