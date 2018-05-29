@@ -650,110 +650,110 @@ p{
 
 
 .storepic9{
-    background-image: url(store/instore/)
+    background-image: url(store/instore/north/1.jpg)
 }
 .storepic9:hover{
-    background-image: 
+    background-image: url(store/address/north/1.jpg);
     transition: 0.5s ease-in;
 }
 .storepic10{
-    background-image: 
+    background-image: url(store/instore/north/2.jpg)
 }
 .storepic10:hover{
-    background-image: 
+    background-image: url(store/address/north/2.jpg);
     transition: 0.5s ease-in;
 }
 .storepic11{
-    background-image: 
+    background-image: url(store/instore/north/3.jpg)
 }
 .storepic11:hover{
-    background-image: 
+    background-image: url(store/address/north/3.jpg);
     transition: 0.5s ease-in;
 }
 .storepic12{
-    background-image: 
+    background-image: url(store/instore/north/4.jpg)
 }
 .storepic12:hover{
-    background-image: 
+    background-image: url(store/address/north/4.jpg);
     transition: 0.5s ease-in;
 }
 .storepic13{
-    background-image: 
+    background-image: url(store/instore/north/5.jpg)
 }
 .storepic13:hover{
-    background-image: 
+    background-image: url(store/address/north/5.jpg);
     transition: 0.5s ease-in;
 }
 .storepic14{
-    background-image: 
+    background-image: url(store/instore/north/6.jpg)
 }
 .storepic14:hover{
-    background-image: 
+    background-image: url(store/address/north/6.jpg);
     transition: 0.5s ease-in;
 }
 .storepic15{
-    background-image: 
+    background-image: url(store/instore/north/7.jpg)
 }
 .storepic15:hover{
-    background-image: 
+    background-image: url(store/address/north/7.jpg);
     transition: 0.5s ease-in;
 }
 .storepic16{
-    background-image: 
+    background-image: url(store/instore/north/8.jpg)
 }
 .storepic16:hover{
-    background-image: 
+    background-image: url(store/address/north/8.jpg);
     transition: 0.5s ease-in;
 }
 
 
 .storepic17{
-    background-image: 
+    background-image: url(store/instore/south/1.jpg)
 }
 .storepic17:hover{
-    background-image: 
+    background-image: url(store/address/south/1.jpg);
     transition: 0.5s ease-in;
 }
 .storepic18{
-    background-image: 
+    background-image: url(store/instore/south/2.jpg)
 }
 .storepic18:hover{
-    background-image: 
+    background-image: url(store/address/south/2.jpg);
     transition: 0.5s ease-in;
 }
 .storepic19{
-    background-image: 
+    background-image: url(store/instore/south/3.jpg)
 }
 .storepic19:hover{
-    background-image: 
+    background-image: url(store/address/south/3.jpg);
     transition: 0.5s ease-in;
 }
 .storepic20{
-    background-image: 
+    background-image: url(store/instore/south/4.jpg)
 }
 .storepic20:hover{
-    background-image: 
+    background-image: url(store/address/south/4.jpg);
     transition: 0.5s ease-in;
 }
 .storepic21{
-    background-image: 
+    background-image: url(store/instore/south/5.jpg)
 }
 .storepic21:hover{
-    background-image: 
+    background-image: url(store/address/south/5.jpg);
     transition: 0.5s ease-in;
 }
 .storepic22{
-    background-image: 
+    background-image: url(store/instore/south/6.jpg)
 }
 .storepic22:hover{
-    background-image: 
+    background-image: url(store/address/south/6.jpg);
     transition: 0.5s ease-in;
 }
 .storepic23{
-    background-image: 
+    background-image: url(store/instore/south/7.jpg)
 }
 .storepic23:hover{
-    background-image: 
+    background-image: url(store/address/south/7.jpg);
     transition: 0.5s ease-in;
 }
 
