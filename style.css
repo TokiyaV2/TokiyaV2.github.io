@@ -8,34 +8,34 @@ body{
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
     /* border:solid 1px; */
-    background-image: url(img/底圖-02.png);
+    /* background-image: url(img/底圖-02.png); */
     background-size: cover;
 }
 .container2{
     width: 100%;
-    height: 150vh;
+    height: 100%;
     position: relative;
     /* border:solid 1px; */
-    background-image: url(img/底圖-02.png);
+    /* background-image: url(img/底圖-02.png); */
     background-size: cover;
 }
 .container3{
     width: 100%;
-    height: 200vh;
+    height: 100%;
     position: relative;
     /* border:solid 1px; */
-    background-image: url(img/底圖-02.png);
+    /* background-image: url(img/底圖-02.png); */
     background-size: cover;
 }
 .container4{
     width: 100%;
-    height: 620vh;
+    height: 100%;
     position: relative;
     /* border:solid 1px; */
-    background-image: url(img/底圖-02.png);
+    /* background-image: url(img/底圖-02.png); */
     background-size: cover;
 }
 .logo{
@@ -571,22 +571,12 @@ body{
     box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 .title{
-    width:60px;
+    width:85px;
     height: 200px;
     position: absolute;
     top:0;
-    left:34.5px;
-}
-.line{
-    width: 28px;
-    height: 80px;
-    border-right:solid 1px;
-}
-.text{
-    width: 100%;
-    height: 120px;
-    font-size: 20px;
-    text-align: center
+    left:27.75px;
+    border:solid 1px;
 }
 .blank{
     width: 100%;
@@ -783,7 +773,10 @@ p{
 .goodnewspic6{
     background-image: url(goodnews/news-2.jpg);
 }
-
+a{
+    width: 111px;
+    height: 102px;
+}
 
 
 
