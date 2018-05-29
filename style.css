@@ -765,6 +765,24 @@ p{
     transition: 0.5s ease-in;
 }
 
+.goodnewspic1{
+    background-image: url(goodnews/news_5.jpg)
+}
+.goodnewspic2{
+    background-image: url(goodnews/news_6.jpg)
+}
+.goodnewspic3{
+    background-image: url(goodnews/news-3.jpg);
+}
+.goodnewspic4{
+    background-image: url(goodnews/news_4.jpg);
+}
+.goodnewspic5{
+    background-image: url(goodnews/news-1.jpg);
+}
+.goodnewspic6{
+    background-image: url(goodnews/news-2.jpg);
+}
 
 
 

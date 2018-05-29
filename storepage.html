@@ -69,19 +69,17 @@
         </div>
         <div class="content">
             <div class="main">
-                <div class="storearea">
+                <div class="storearea" id="tabs3">
                     <ul>
-                        <li><a href="#">北部</a></li>
-                        <li><a href="#">中部</a></li>
-                        <li><a href="#">南部</a></li>
+                        <li id="tab_a-1" onclick="changeTab(1)" class="nowShowA"><a href="">北部</a></li>
+                        <li id="tab_a-2" onclick="changeTab(2)" class="otherA"><a href="">中部</a></li>
+                        <li id="tab_a-3" onclick="changeTab(3)" class="otherA"><a href="">南部</a></li>
                     </ul>
                 </div>
                 <div class="storeline"></div>
-                <div class="store">
+                <div class="store showTabDiv" id="tabs-1">
                     <div class="storeinf">
-                        <div class="storepic storepic1">
-
-                        </div>
+                        <div class="storepic storepic1"></div>
                         <div class="storetxt">
                           <p>台中河南店
                           <br>電話:04-2452-5755
@@ -137,8 +135,7 @@
                           <br>地址:苗栗市中山路475號<P></div>
                     </div>
                 </div>
-
-                <div class="store">
+                <div class="store showTabDiv" id="tabs-2" style="display:none;width:100%;">
                         <div class="storeinf">
                             <div class="storepic storepic9"></div>
                             <div class="storetxt">
@@ -196,9 +193,7 @@
                               <br>地址:基隆市中正區信一路177號12樓<P></div>
                         </div>
                     </div>
-
-
-                <div class="store">
+                <div class="store showTabDiv" id="tabs-3" style="display:none;width:100%;">
                         <div class="storeinf">
                             <div class="storepic storepic17"></div>
                             <div class="storetxt">
@@ -248,8 +243,9 @@
                                 <br>電話:05-228-8239
                                 <br>地址:嘉義市東區林森西路153號2樓<P></div>
                         </div>
-                    </div>
+                </div>
                 <div class="blank"></div>
+         </div>   
         </div>
             <div class="title">
                 <div class="line">
@@ -260,5 +256,27 @@
             </div> 
         </div>
     </div>
+
+    <script>
+            function changeTab(index)  
+            {  
+                document.getElementById("tabs-"+index).style.display="flex";     
+                // document.getElementById("tab_a-"+index).className="nowShowA";
+                var i=1;  
+                while(document.getElementById("tabs-"+i))  
+                {  
+                    if(i!=index){  
+                    clearDisplay(i);  
+                    // document.getElementById("tab_a-"+i).className="otherA";
+                    }  
+                    i++;  
+                }  
+            }  
+            function clearDisplay(index)  
+            {  
+                document.getElementById("tabs-"+index).style.display="none";  
+            }  
+        </script>
+
 </body>
 </html>
