@@ -576,7 +576,7 @@ body{
     position: absolute;
     top:0;
     left:27.75px;
-    border:solid 1px;
+    /* border:solid 1px; */
 }
 .blank{
     width: 100%;
@@ -776,6 +776,10 @@ p{
 a{
     width: 111px;
     height: 102px;
+}
+.titlestore{
+    background-image: url(titlePic/分店資訊-02.png);
+    background-size: cover;
 }
 
 
