@@ -590,3 +590,38 @@ p{
     margin-left: 10px;
 
 }
+.storepic1{
+    background-image: url(store/instore/middle/1.jpg)
+
+}
+.storepic2{
+    background-image: url(store/instore/middle/2.jpg)
+
+}
+.storepic3{
+    background-image: url(store/instore/middle/3.jpg)
+}
+.storepic4{
+    background-image: url(store/instore/middle/4.jpg)
+}
+.storepic5{
+    background-image: url(store/instore/middle/5.jpg)
+
+}
+.storepic6{
+    background-image: url(store/instore/middle/6.jpg)
+
+}
+.storepic7{
+    background-image: url(store/instore/middle/7.jpg)
+
+}
+.storepic8{
+    background-image: url(store/instore/middle/8.jpg)
+
+}
+.storepic1:hover{
+    background-image: url(store/address/middle/1.jpg)
+}
+
+
