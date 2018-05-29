@@ -157,16 +157,17 @@ body{
 .menupic{
     width: 100%;
     position: absolute;
-    height:300px;
+    height:500px;
     top:250px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 .foodpic{
-    width: 20%;
-    height: 100px;
-    border: solid 1px;
+    width: 30%;
+    height: 150px;
+    /* border: solid 1px; */
 }
 .member{
     width:100%;
@@ -773,13 +774,51 @@ p{
 .goodnewspic6{
     background-image: url(goodnews/news-2.jpg);
 }
-a{
-    width: 111px;
-    height: 102px;
-}
 .titlestore{
     background-image: url(titlePic/分店資訊-02.png);
     background-size: cover;
+}
+.salad_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/salad.png);
+    background-size: contain;
+}
+.soup_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/soup.png);
+    background-size:contain;
+}
+.entree_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/entree.png);
+    background-size: contain;
+}
+.main_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/main.png);
+    background-size: contain;
+}
+.rice_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/rice.png);
+    background-size: contain;
+}
+.dessert_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/dessert.png);
+    background-size: contain;
+}
+.drink_01{
+    width: 164px;
+    height: 152px;
+    background-image: url(menupng/drink.png);
+    background-size: contain;
 }
 
 
