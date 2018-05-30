@@ -52,23 +52,23 @@
     border:solid 0;
 }
 .pic1{
-    background-image: url(enter/左上-04.jpg);
+    background-image: url(imgslim/左上-04.jpg);
     background-size: cover;
 
 }
 .pic2{
-    background-image: url(enter/左下-04.jpg);
+    background-image: url(imgslim/左下-04.jpg);
     background-size: cover;
 }
 .pic3{
-    background-image: url(enter/右上-04.jpg);
+    background-image: url(imgslim/右上-04.jpg);
     background-size: cover;
 }
 .pic4{
-    background-image: url(enter/右下-04.jpg);
+    background-image: url(imgslim/右下-04.jpg);
     background-size: cover;
 }
 .pic5{
-    background-image: url(enter/大-03.jpg);
+    background-image: url(imgslim/大-03.jpg);
     background-size: cover;
 }
