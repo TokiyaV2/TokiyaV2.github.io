@@ -99,15 +99,16 @@ body{
 .logo{
     position: fixed;
     bottom:0px;
-    left:60px;
+    left:50px;
 }
 .list1{
     position: fixed;
-    left:135px;
-    top:50px;
+    left:125px;
+    top: 50px;
     height: 80%;
     border-right: solid 2px;
 }
+
 .list1 ul li {
     list-style: none;
     margin-bottom: 20px;
@@ -126,7 +127,7 @@ body{
 }
 .list2{
     position: fixed;
-    right:20px;
+    right:30px;
     top: 50px;
 }
 .list2 ul li {
@@ -148,7 +149,7 @@ body{
 }
 .list3{
     position: fixed;
-    right: 20px;
+    right: 30px;
     bottom:20px;
 }
 .list3 ul li {
@@ -161,7 +162,7 @@ body{
 .footer{
     position: fixed;
     left: 250px;
-    bottom: 60px;
+    bottom: 50px;
     z-index: 999;
 }
 .footer a{
