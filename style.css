@@ -49,13 +49,16 @@ body{
     animation-fill-mode: forwards;
     background-image: url(logofont/logofont.png);
     background-size: cover;
+    opacity: 0;
 }
 @keyframes font{
     from{
         top:30px;
+        opacity: 0;
     }
     to{
         top:80px;
+        opacity: 1;
     }
 }
 .font1{
@@ -79,13 +82,16 @@ body{
     animation-fill-mode: forwards;
     background-image: url(logofont/logotext.png);
     background-size: cover;
+    opacity: 0;
 }
 @keyframes smalltitle{
     from{
         top:150px;
+        opacity: 0;
     }
     to{
         top:200px;
+        opacity: 1;
     }
 }
 .logo{
@@ -265,16 +271,19 @@ body{
 }
 .animation{
     animation-name: down;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     position: relative;
+    opacity:0;
 }
 @keyframes down {
     from{
         top:0;
+        opacity: 0;
     }
     to{
         top:70px;
+        opacity:1;
     }
 }
 .member{
