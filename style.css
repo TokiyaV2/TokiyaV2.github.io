@@ -17,6 +17,18 @@ body{
     position: absolute;
     animation-delay: 0.5s;
 }
+.backgroundimg2{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url(background/a124-02.jpg);
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: center;
+    position: absolute;
+    animation-delay: 0.5s;
+    background-attachment: fixed;
+}
 .container{
     width: 100%;
     height: 100%;
