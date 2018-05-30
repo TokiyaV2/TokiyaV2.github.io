@@ -265,16 +265,19 @@ body{
 }
 .animation{
     animation-name: down;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     position: relative;
+    opacity:0;
 }
 @keyframes down {
     from{
         top:0;
+        opacity: 0;
     }
     to{
         top:70px;
+        opacity:1;
     }
 }
 .member{
