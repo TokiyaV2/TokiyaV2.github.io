@@ -232,7 +232,7 @@ body{
     width: 100%;
     position: absolute;
     height:500px;
-    top:250px;
+    top:200px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -284,7 +284,7 @@ body{
         opacity: 0;
     }
     to{
-        top:70px;
+        top:60px;
         opacity:1;
     }
 }
