@@ -27,7 +27,50 @@ body{
     background-position: center;
     position: absolute;
     animation-delay: 0.5s;
-    background-attachment: fixed;
+}
+.backgroundimg3{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url();
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: center;
+    position: absolute;
+    animation-delay: 0.5s;
+}
+.backgroundimg4{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url();
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: center;
+    position: absolute;
+    animation-delay: 0.5s;
+}
+.backgroundimg5{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url();
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: center;
+    position: absolute;
+    animation-delay: 0.5s;
+}
+.backgroundimg6{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url();
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-position: center;
+    position: absolute;
+    animation-delay: 0.5s;
 }
 .container{
     width: 100%;
