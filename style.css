@@ -38,15 +38,17 @@ body{
     /* background-image: url(img/底圖-02.png); */
     background-size: cover;
 }
-.font1,.font2,.font3{
-    width: 150px;
-    height: 150px;
+.font1{
+    width: 319px;
+    height: 112px;
     position: absolute;
-    border:solid 1px;
+    /* border:solid 1px; */
     top:30px;
     animation-name: font;
     animation-duration: 3s;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
+    background-image: url(logofont/logofont.png);
+    background-size: cover;
 }
 @keyframes font{
     from{
@@ -59,29 +61,31 @@ body{
 .font1{
     left:250px;
 }
-.font2{
+/* .font2{
     left:420px;
 }
 .font3{
     left:590px;
-}
+} */
 .smalltitle{
-    width: 300px;
-    height: 15px;
-    border:solid 1px;
+    width: 337px;
+    height: 31px;
+    /* border:solid 1px; */
     position: absolute;
-    top:200px;
-    left:430px;
+    top:150px;
+    left:350px;
     animation-name: smalltitle;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    background-image: url(logofont/logotext.png);
+    background-size: cover;
 }
 @keyframes smalltitle{
     from{
-        top:200px;
+        top:150px;
     }
     to{
-        top:250px;
+        top:200px;
     }
 }
 .logo{
