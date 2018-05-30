@@ -229,9 +229,9 @@ body{
     width: 30%;
     height: 150px;
     position: relative;
-    animation-name: down;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    /* animation-name: down; */
+    /* animation-duration: 5s;
+    animation-fill-mode: forwards; */
     /* display: none; */
     /* border: solid 1px; */
 }
@@ -259,12 +259,18 @@ body{
 #drink{
     animation-delay: 3.5s
 }
+.animation{
+    animation-name: down;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
 @keyframes down {
     from{
         top:0;
     }
     to{
-        top:50px;
+        top:70px;
     }
 }
 .member{
