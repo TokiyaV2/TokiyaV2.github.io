@@ -15,7 +15,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .backgroundimg2{
     width: 100%;
@@ -26,7 +26,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .backgroundimg3{
     width: 100%;
@@ -37,7 +37,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .backgroundimg4{
     width: 100%;
@@ -48,7 +48,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .backgroundimg5{
     width: 100%;
@@ -59,7 +59,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .backgroundimg6{
     width: 100%;
@@ -70,7 +70,7 @@ body{
     /* min-height: 100vh; */
     background-position: center;
     position: absolute;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 .container{
     width: 100%;
@@ -89,7 +89,7 @@ body{
     /* border:solid 1px; */
     /* background-image: url(img/底圖-02.png); */
     background-size: cover;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 .container3{
     width: 100%;
@@ -500,7 +500,7 @@ body{
 }
 .boxtxt{
     float:left;
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: relative;
 }
@@ -531,7 +531,7 @@ body{
 }
 .boxtxt2{
     float:left;
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: relative;
 }
@@ -562,7 +562,7 @@ body{
     /* position: relative; */
 }
 .boxtxt3{
-    width: 15%;
+    width: 20%;
     height: 120px;
     line-height: 35px;
     box-sizing: border-box;
@@ -625,7 +625,7 @@ body{
 }
 .boxtxt4{
     float:left;
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: relative;
 }
@@ -657,7 +657,7 @@ body{
 }
 .boxtxt{
     float:left;
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: relative;
 }
@@ -689,7 +689,7 @@ body{
 }
 .box7 .boxtxt{
     float:left;
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: relative;
 }
