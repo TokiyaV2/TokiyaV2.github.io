@@ -12,17 +12,17 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="enterstyle.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
     <style>
-
-
         body {
-            background-image: url(imgslim/首頁-07.jpg);
+            /* background-image: url(imgslim/首頁-07.jpg); */
             background-size: cover;
             min-height: 100vh;
             background-position: center;
-            font-family: 標楷體,Atial;
+            font-family: 標楷體, Atial;
+            position: relative;
         }
     </style>
 </head>
@@ -41,6 +41,7 @@
             <a class="enter_btn" id="enterbtn" href="#">進入頁面</a>
         </div>
     </div>
+
     <div class="container" id="container">
         <div class="font1"></div>
         <div class="smalltitle"></div>
@@ -124,8 +125,11 @@
             <br>
             <a href="#">designed by BROTHERS</a>
         </div>
-        <!-- <div class="content"></div> -->
     </div>
+    <div class="slider_container">
+            <div class="sliderpic1"></div>
+            <div class="sliderpic2"></div>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         var obtn = document.querySelector("#enterbtn");
