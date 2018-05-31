@@ -34,7 +34,7 @@ body{
     width: 100%;
     height: 170vh;
     z-index: -1;
-    background-image:url(background/ww123-02.jpg);
+    background-image:url(background/w789-02.jpg);
     background-size: cover;
     /* min-height: 100vh; */
     background-position: center;
@@ -248,7 +248,7 @@ body{
     position: fixed;
     left: 250px;
     bottom: 50px;
-    z-index: 999;
+    z-index: 0;
 }
 .footer a{
     text-decoration: none;
@@ -860,9 +860,8 @@ body{
 .foodtile{
     width: 100%;
     height: 50px;
-    font-size:25px;
+    font-size:35px;
     text-align: center;
-    margin-top:10px;
     color:white;
     /* border-bottom:solid 1px; */
 }
