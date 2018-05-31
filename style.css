@@ -334,29 +334,29 @@ body{
     display: block;
 }
 #salad{
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 #entree{
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 #soup{
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 #main{
-    animation-delay: 2.5s;
+    animation-delay: 2s;
 }
 #rice{
-    animation-delay: 3s;
+    animation-delay: 2.5s;
 }
 #dessert{
-    animation-delay: 3.5s;
+    animation-delay: 3s;
 }
 #drink{
-    animation-delay: 4s
+    animation-delay: 3.5s
 }
 .animation{
     animation-name: down;
-    animation-duration: 5s;
+    animation-duration: 3.5s;
     animation-fill-mode: forwards;
     position: relative;
     opacity:0;
