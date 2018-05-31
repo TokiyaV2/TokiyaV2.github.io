@@ -77,6 +77,7 @@ body{
     position: absolute;
     animation-delay: 0.2s;
     background-attachment:fixed;
+
 }
 .backgroundimg7{
     width: 100%;
@@ -259,7 +260,7 @@ body{
     width: 65%;
     /* height: 70%; */
     position: absolute;
-    border:solid 3px;
+    /* border:solid 3px; */
     left: 55%;
     top:70px;
     transform: translate(-50%, 0);
@@ -433,8 +434,9 @@ body{
 .goodnews{
     width: 100%;
     height: 200px;
-    margin-bottom: 20px;
-    border-bottom:solid 1px;
+
+    margin-top:15px;
+
 }
 .storearea{
     width:100%;
@@ -1142,6 +1144,7 @@ p{
 .goodnewspic6{
     background-image: url(goodnews/news-2.jpg);
     background-size: cover;
+    margin-bottom: 15px;
 }
 .titlestore{
     background-image: url(titlePic/分店資訊-02.png);

@@ -49,6 +49,12 @@
     text-decoration: none;
     color:white;
     border:solid 0;
+    border:solid 1px;
+}
+.enter_btn:hover{
+    background-color: white;
+    color:purple;
+    
 }
 .pic1{
     background-image: url(imgslim/左上-04.jpg);
