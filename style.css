@@ -561,18 +561,18 @@ body{
     border-bottom:dotted 1px;
     /* position: relative; */
 }
-.boxtxt3{
-    width: 20%;
+.box3 .boxtxt3{
+    width: 17%;
     height: 120px;
     line-height: 35px;
     box-sizing: border-box;
     float: left;
     padding-top:8px; 
-    padding-left: 20px;
+    padding-left: 15px;
 }
-.boxinput2{
-    float:left;
-    width: 80%;
+.box3 .boxinput2{
+    float:right;
+    width: 83%;
     height: 100%;
     position: relative;
 }
