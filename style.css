@@ -30,7 +30,7 @@ body{
 }
 .backgroundimg3{
     width: 100%;
-    height: 100vh;
+    height: 170vh;
     z-index: -1;
     background-image:url(background/ww123-02.jpg);
     background-size: cover;
@@ -75,7 +75,7 @@ body{
 }
 .backgroundimg7{
     width: 100%;
-    height: 150vh;
+    height: 176vh;
     z-index: -1;
     background-image:url(background/a124-02.jpg);
     background-size: cover;
@@ -326,29 +326,29 @@ body{
     display: block;
 }
 #salad{
-    animation-delay: 0.5s;
-}
-#entree{
     animation-delay: 1s;
 }
-#soup{
+#entree{
     animation-delay: 1.5s;
 }
-#main{
+#soup{
     animation-delay: 2s;
 }
-#rice{
+#main{
     animation-delay: 2.5s;
 }
-#dessert{
+#rice{
     animation-delay: 3s;
 }
+#dessert{
+    animation-delay: 3.5s;
+}
 #drink{
-    animation-delay: 3.5s
+    animation-delay: 4s
 }
 .animation{
     animation-name: down;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     position: relative;
     opacity:0;
@@ -550,8 +550,8 @@ body{
     border-bottom:dotted 1px;
     /* position: relative; */
 }
-.boxtxt3{
-    width: 20%;
+.box3 .boxtxt3{
+    width: 17%;
     height: 120px;
     line-height: 35px;
     box-sizing: border-box;
@@ -560,9 +560,9 @@ body{
     padding-left: 20px;
     color:white;
 }
-.boxinput2{
-    float:left;
-    width: 80%;
+.box3 .boxinput2{
+    float:right;
+    width: 83%;
     height: 100%;
     position: relative;
 }
