@@ -101,7 +101,9 @@ height: 100vh;
     width: 55%;
     height: 100px;
     position:absolute;
-    left:45px;
+    top: 20%;
+    left:40%;
+    transform: translate(-50%,-50%);
     background-image:url(img/logofont.png);
     background-size: cover;
 }
@@ -110,8 +112,9 @@ height: 100vh;
     width: 55%;
     height: 30px;
     position:absolute;
-    top:200px;
-    left:45px;
+    top:30%;
+    left:60%;
+    transform: translate(-50%,-50%);
     background-image: url(img/logotext.png);
     background-size: cover;
 }
