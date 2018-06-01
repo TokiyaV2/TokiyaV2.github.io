@@ -1223,12 +1223,7 @@ p{
             animation-delay: 4s;
 }
 .sliderpic1{
-<<<<<<< HEAD
-
-    background-image:url(background/首頁2-02.jpg);
-=======
-    background-image:url(background/member.jpg);
->>>>>>> 311f971d7ecff9ac898cce30547c81a120bc2ef9
+    background-image:url(background/.jpg);
     background-size: cover;
     background-position: center;
 }
