@@ -4,6 +4,14 @@
     font-family: 微軟正黑體;
     text-decoration: none;
 }
+body
+{
+margin:0;
+background-image: url(img/index_pic.jpg);
+background-size:cover;
+background-position:center;
+height: 100vh;
+}
 .nav      /*頂部浮動導覽條*/
 {
     width: 100%;
@@ -13,32 +21,108 @@
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
-    position: fixed;
+    position: relative;
     top:0;
-    background-color: gray;
 }
-.mark     /*置中標誌*/
+.dropdown
 {
-    width: 156px;
-    flex:0 0 10%;
+    position:absolute;
+    left: 15%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.forms
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+}
+.btn-group
+{
+    background: none;
+    border: none;
+    display: inline-block;
+}
+.icon-bar1 {
+    position:absolute;
+    left:50%;
+    top:25%;
+    background-color:black;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar2 {
+    position:absolute;
+    left: 50%;
+    top:50%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar3 {
+    position:absolute;
+    left: 50%;
+    top:75%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+.mark2     /*置中標誌*/
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-image: url(img/logo-18.png);
+    background-size: cover;
 }
 .iconbox   /*靠右icon包覆*/
 {
-    width: calc(50% - 78px);
-    flex:0 0 10%;
-    display: inline-flex;
+    width: 20%;
+    /* display: inline-flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;*/
+    position:absolute;
+    left: 85%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
-.icon
+.indexText1
 {
-    flex:0;
+    width: 55%;
+    height: 100px;
+    position:absolute;
+    left:45px;
+    background-image:url(img/logofont.png);
+    background-size: cover;
+}
+.indexText2
+{
+    width: 55%;
+    height: 30px;
+    position:absolute;
+    top:200px;
+    left:45px;
+    background-image: url(img/logotext.png);
+    background-size: cover;
 }
 .footer
 {
-    width: 240px;
-    height: 86px;
+    width: 256px;
+    height: 60px;
     position: fixed;
     bottom:0;
-    left:130px;
+    left:calc(50% - 128px);
+    background-image: url(img/worktime.png);
 }
 .whole1
 {
@@ -244,4 +328,18 @@
     height: calc(100% - 1px);
     margin-left: 10%;
     border: solid 1px;
+}
+.fa-twitter:before 
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-google::before
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-facebook-f::before
+{
+    color:white;
 }
