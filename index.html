@@ -7,27 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>陶板屋</title>
     <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-55323.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" @media=" screen and (min-width: 414px)" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+<<<<<<< HEAD
+    <link rel="stylesheet" @media=" screen and (min-width: 414px)" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" @media=" screen and (min-width: 414px)" href="enterstyle.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" @media=" screen and (max-width: 415px)" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" @media=" screen and (max-width: 415px)" href="mobile/Untitled-1.css">
+
+    
+=======
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="enterstyle.css">
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+>>>>>>> 265a10d1ce32fb6823282edae32794880033844d
     
     <style>
-        body {
+        @media (min-width:415px)
+        {
+            body {
             /* background-image: url(imgslim/首頁-07.jpg); */
             background-size: cover;
             min-height: 100vh;
             background-position: center;
             font-family: 標楷體, Arial;
             position: relative;
+            }
+        }
+    
+        @media (max-width: 415px) 
+        {
+            .desktop 
+            {
+            display: none;
+            }
+            .mobile 
+            {
+            display: block;
+            }
         }
     </style>
 </head>
 
 <body>
+    <div class="desktop">
     <div class="allcontainer" id="all">
         <div class="all">
             <div class="pic1"></div>
@@ -126,12 +154,16 @@
             <a href="#">designed by BROTHERS</a>
         </div>
     </div>
+<<<<<<< HEAD
+    </div>
+=======
     <div class="purple"></div>
+>>>>>>> 265a10d1ce32fb6823282edae32794880033844d
     <div class="slider_container">
             <div class="sliderpic1"></div>
             <div class="sliderpic2"></div>
         </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         var obtn = document.querySelector("#enterbtn");
         var ocontainer = document.querySelector("#container");
@@ -143,6 +175,46 @@
             // $('#all').fadeOut(1000);
         }
     </script>
+
+
+
+
+
+        <div class="mobile">    
+            <div class="nav">
+                <div class="dropdown">
+                    <div class="btn-group">
+                        <button class="forms" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="icon-bar1"></span>
+                            <span class="icon-bar2"></span>
+                            <span class="icon-bar3"></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                           <a class="dropdown-item" href="story.html">陶板故事</a>
+                           <a class="dropdown-item" href="menu.html">和風料理</a>
+                           <a class="dropdown-item" href="vip.html">會員登入</a>
+                           <a class="dropdown-item" href="news.html">好康快報</a>
+                           <a class="dropdown-item" href="Information.html">陶板門市</a>
+                           <a class="dropdown-item" href="feedback.html">陶陶不絕</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mark2"></div>
+                <div class="iconbox" @media=" screen and (max-width: 415px)">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+            <div class="indexText1"></div>
+            <div class="indexText2"></div>
+            <div class="footer"></div>
+        </div>  
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
