@@ -220,7 +220,7 @@ body{
 .purple{
     width: 600px;
     height: 85px;
-    position: absolute;
+    position: fixed;
     left:0;
     bottom:0;
     background-color: blueviolet;
