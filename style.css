@@ -407,8 +407,9 @@ body{
     width: 100%;
     position: absolute;
     top:50px;
+    list-style: none;
     display:flex;
-    justify-content: space-around;    
+    justify-content: space-evenly;    
 }
 .storearea ul li{
     list-style: none;
