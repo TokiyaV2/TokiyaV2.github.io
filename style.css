@@ -804,16 +804,18 @@ body{
     background-size: cover;
 }
 .foodtile{
-    width: 100%;
+    width: 40%;
     height: 50px;
     font-size:35px;
     text-align: center;
     color:white;
+    background-color: black;
+    margin: 0 auto;
 }
 .foodpng{
     width: 100%;
     height: 650px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -823,7 +825,7 @@ body{
 .foodpng1{
     width: 100%;
     height: 350px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -832,7 +834,7 @@ body{
 .foodpng2{
     width: 100%;
     height: 350px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -842,7 +844,7 @@ body{
 .foodjpg{
     width: 100%;
     height: 1310px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
