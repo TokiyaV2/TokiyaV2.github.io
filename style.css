@@ -268,10 +268,10 @@ body{
     top:150px;
     left:50%;
     transform: translate(-50%,0);
-    border-bottom:solid 1px;
+    border-bottom:solid 2px;
 }
 .menuline2{
-    width: 6vw;
+    width: 7vw;
     height: 1vw;
     position: absolute;
     top:180px;
@@ -283,7 +283,7 @@ body{
 .menupic{
     width: 100%;
     position: absolute;
-    height:500px;
+    height:630px;
     top:200px;
     display:flex;
     flex-wrap: wrap;
