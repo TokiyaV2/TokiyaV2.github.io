@@ -1324,16 +1324,32 @@ p{
     background-image: url(imgslim/大-03.jpg);
     background-size: cover;
 }
-.nav{
+.navbar{
      height: 0;
      overflow: hidden;
-
+     display:none;
+}
+.dropdown-menu{
+    height: 0;
+    overflow: hidden;
+}
+.height{
+    height: 160px !important;
+    transition:1s ease;
+}
+.footer1{
+    display:none;
+}
+.indexText1{
+    display:none;
+}
+.indexText2{
+    display:none;
 }
 @media screen and ( max-width:414px) {
 
 .allcontainer{
      display:none;
-
 }
 .contanier{
      display:none;
@@ -1347,12 +1363,31 @@ p{
 .list3{
     display:none;
 }
-
-.nav      /*頂部浮動導覽條*/
+.font{
+    display: none;
+    height: 0;
+}
+.smalltitle{
+    display: none;
+    height: 0;
+}
+.slider_container{
+    display: none;
+    height: 0;
+}
+body
+{
+margin:0;
+background-image: url(img/index_pic.jpg);
+background-size:cover;
+background-position:center;
+height: 100vh;
+}
+.navbar      /*頂部浮動導覽條*/
 {
     width: 100%;
     height: 80px;
-    display: inline-flex;
+    display: block;
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
@@ -1362,25 +1397,42 @@ p{
     z-index: 2;
 }
 .dropdown
-{
+{   
+    width: 50px;
+    height: 50px;
     position:absolute;
     left: 15%;
     top:50%;
     transform: translate(-50%,-50%);
+    background-color: white;
 }
-.forms
+.dropdown-menu{
+    width: 80px;
+    height: 0px;
+    z-index: 1000;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left:30px;
+    overflow:hidden
+}
+.dropdownbtn{
+    margin-bottom:10px;
+    }
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-family: "標楷體" ;
+}
+/* .forms
 {
     width: 40px;
     height: 40px;
     background-color: white;
     position: relative;
-}
-.btn-group
-{
-    background: none;
-    border: none;
-    display: inline-block;
-}
+} */
 .icon-bar1 {
     position:absolute;
     left:50%;
@@ -1443,6 +1495,9 @@ p{
     transform: translate(-50%,-50%);
     background-image:url(img/logofont.png);
     background-size: cover;
+    z-index: 2;
+    display: block;
+
 }
 .indexText2
 {
@@ -1454,6 +1509,8 @@ p{
     transform: translate(-50%,-50%);
     background-image: url(img/logotext.png);
     background-size: cover;
+    z-index: 2;
+    display: block;
 }
 .footer1
 {
@@ -1463,5 +1520,20 @@ p{
     bottom:0;
     left:calc(50% - 128px);
     background-image: url(img/worktime.png);
+    display:block;
+}
+.fa-twitter:before 
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-google::before
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-facebook-f::before
+{
+    color:white;
 }
 }

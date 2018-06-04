@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         body {
             font-family: 標楷體,Arial;
@@ -127,24 +126,12 @@
         <div class="sliderpic2"></div>
     </div>
 
-    <div class="nav">
-        <div class="dropdown">
-            <div class="btn-group">
-                <button class="forms" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="icon-bar1"></span>
-                    <span class="icon-bar2"></span>
-                    <span class="icon-bar3"></span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="storymobile.html">陶板故事</a>
-                    <a class="dropdown-item" href="menumobile.html">和風料理</a>
-                    <a class="dropdown-item" href="vipmobile.html">會員登入</a>
-                    <a class="dropdown-item" href="newsmobile.html">好康快報</a>
-                    <a class="dropdown-item" href="Informationmobile.html">陶板門市</a>
-                    <a class="dropdown-item" href="feedbackmobile.html">陶陶不絕</a>
-                </div>
+    <div class="navbar">
+        <div class="dropdown" id="dropdown">
+                    <div class="icon-bar1"></div>
+                    <div class="icon-bar2"></div>
+                    <div class="icon-bar3"></div>
             </div>
-        </div>
         <a class="mark2" href="index.html"></a>
         <div class="iconbox">
             <i class="fab fa-twitter"></i>
@@ -154,21 +141,32 @@
     </div>
     <div class="indexText1"></div>
     <div class="indexText2"></div>
-    <div class="footer"></div>
+    <div class="footer1"></div>
+    <div class="dropdown-menu" id="dropdown-menu">
+        <div class="dropdownbtn"><a href="storymobile.html">陶板故事</a></div>
+        <div class="dropdownbtn"><a href="menumobile.html">和風料理</a></div>
+        <div class="dropdownbtn"><a href="vipmobile.html">會員登入</a></div>
+        <div class="dropdownbtn"><a href="newsmobile.html">好康快報</a></div>
+        <div class="dropdownbtn"><a href="Informationmobile.html">陶板門市</a></div>
+        <div class="dropdownbtn"><a href="feedbackmobile.html">陶陶不絕</a></div>
+    </div>    
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         var obtn = document.querySelector("#enterbtn");
         var ocontainer = document.querySelector("#container");
         var oall = document.querySelector("#all");
+        var odropdown = document.querySelector("#dropdown");
+        var odropdownmenu = document.querySelector("#dropdown-menu");
 
         obtn.onclick = function () {
             ocontainer.classList.add("block");
             $('#all').addClass('animated fadeOut');
             // $('#all').fadeOut(1000);
+        }
+        odropdown.onclick = function() {
+            odropdownmenu.classList.toggle("height");
         }
     </script>
 
