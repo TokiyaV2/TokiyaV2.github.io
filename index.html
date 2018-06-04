@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="enterstyle.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
@@ -126,16 +125,48 @@
         <div class="sliderpic1"></div>
         <div class="sliderpic2"></div>
     </div>
+
+    <div class="navbar">
+        <div class="dropdown" id="dropdown">
+                    <div class="icon-bar1"></div>
+                    <div class="icon-bar2"></div>
+                    <div class="icon-bar3"></div>
+            </div>
+        <a class="mark2" href="index.html"></a>
+        <div class="iconbox">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook-f"></i>
+        </div>
+    </div>
+    <div class="indexText1"></div>
+    <div class="indexText2"></div>
+    <div class="footer1"></div>
+    <div class="dropdown-menu" id="dropdown-menu">
+        <div class="dropdownbtn"><a href="storymobile.html">陶板故事</a></div>
+        <div class="dropdownbtn"><a href="menumobile.html">和風料理</a></div>
+        <div class="dropdownbtn"><a href="vipmobile.html">會員登入</a></div>
+        <div class="dropdownbtn"><a href="newsmobile.html">好康快報</a></div>
+        <div class="dropdownbtn"><a href="Informationmobile.html">陶板門市</a></div>
+        <div class="dropdownbtn"><a href="feedbackmobile.html">陶陶不絕</a></div>
+    </div>    
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         var obtn = document.querySelector("#enterbtn");
         var ocontainer = document.querySelector("#container");
         var oall = document.querySelector("#all");
+        var odropdown = document.querySelector("#dropdown");
+        var odropdownmenu = document.querySelector("#dropdown-menu");
 
         obtn.onclick = function () {
             ocontainer.classList.add("block");
             $('#all').addClass('animated fadeOut');
             // $('#all').fadeOut(1000);
+        }
+        odropdown.onclick = function() {
+            odropdownmenu.classList.toggle("height");
         }
     </script>
 

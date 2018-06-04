@@ -1246,3 +1246,285 @@ p{
     background-size: cover;
     background-position: center;
 }
+
+.all{
+    width: 83.3vw;
+    height: calc(100% - 16vw);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    /* background-image: url(img/中間圖-03.png); */
+    background-size: cover;
+}
+.pic1,.pic2,.pic3,.pic4{
+    width: 24%;
+    height: 49%;
+}
+.pic5{
+    width: 50%;
+    height:100%;
+}
+.logo2{
+    width:33%;
+    max-width: 420px;
+    height: 33vw;
+    max-height: 420px;
+    border:solid 0px;
+    border-radius: 50%;
+    position: absolute;;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-image: url(/02.-素材/01-IMG/logo_icom/enter_logo3-02.png);
+    background-size: cover;
+}
+.enter{
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    bottom:35vh;
+    left:48%;
+    text-align: center;
+}
+.enter_btn{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    border:solid 0;
+    border:solid 1px;
+}
+.enter_btn:hover{
+    background-color: white;
+    color:purple;
+    
+}
+.pic1{
+    background-image: url(imgslim/左上-04.jpg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(imgslim/左下-04.jpg);
+    background-size: cover;
+}
+.pic3{
+    background-image: url(imgslim/右上-04.jpg);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(imgslim/右下-04.jpg);
+    background-size: cover;
+}
+.pic5{
+    background-image: url(imgslim/大-03.jpg);
+    background-size: cover;
+}
+.navbar{
+     height: 0;
+     overflow: hidden;
+     display:none;
+}
+.dropdown-menu{
+    height: 0;
+    overflow: hidden;
+}
+.height{
+    height: 180px !important;
+    transition:1s ease;
+}
+.footer1{
+    display:none;
+}
+.indexText1{
+    display:none;
+}
+.indexText2{
+    display:none;
+}
+@media screen and ( max-width:414px) {
+
+.allcontainer{
+     display:none;
+}
+.contanier{
+     display:none;
+}
+.list1{
+    display: none;
+}
+.list2{
+    display:none;
+}
+.list3{
+    display:none;
+}
+.font{
+    display: none;
+    height: 0;
+}
+.smalltitle{
+    display: none;
+    height: 0;
+}
+.slider_container{
+    display: none;
+    height: 0;
+}
+body
+{
+margin:0;
+background-image: url(img/index_pic.jpg);
+background-size:cover;
+background-position:center;
+height: 100vh;
+}
+.navbar      /*頂部浮動導覽條*/
+{
+    width: 100%;
+    height: 80px;
+    display: block;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    position: relative;
+    top:0;
+    z-index: 2;
+}
+.dropdown
+{   
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left: 15%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.dropdown-menu{
+    width: 80px;
+    height: 0px;
+    z-index: 1000;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left:30px;
+    overflow:hidden
+}
+.dropdownbtn{
+    margin-bottom:10px;
+    }
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-family: "標楷體" ;
+}
+.icon-bar1 {
+    position:absolute;
+    left:50%;
+    top:25%;
+    background-color:black;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar2 {
+    position:absolute;
+    left: 50%;
+    top:50%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar3 {
+    position:absolute;
+    left: 50%;
+    top:75%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+.mark2     /*置中標誌*/
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-image: url(img/logo-18.png);
+    background-size: cover;
+}
+.iconbox   /*靠右icon包覆*/
+{
+    width: 20%;
+    /* display: inline-flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;*/
+    position:absolute;
+    left: 85%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.indexText1
+{
+    width: 55%;
+    height: 100px;
+    position:absolute;
+    top: 20%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    background-image:url(img/logofont.png);
+    background-size: cover;
+    z-index: 2;
+    display: block;
+}
+.indexText2
+{
+    width: 55%;
+    height: 30px;
+    position:absolute;
+    top:30%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    background-image: url(img/logotext.png);
+    background-size: cover;
+    z-index: 2;
+    display: block;
+}
+.footer1
+{
+    width: 256px;
+    height: 60px;
+    position: fixed;
+    bottom:0;
+    left:calc(50% - 128px);
+    background-image: url(img/worktime.png);
+    display:block;
+}
+.fa-twitter:before 
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-google::before
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-facebook-f::before
+{
+    color:white;
+}
+}
