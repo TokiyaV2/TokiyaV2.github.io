@@ -1,94 +1,128 @@
 <html lang="zh-tw">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>陶板屋</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <style>
-
-            body {
-                /* background-image: url("background/s444-02.jpg"); */
-                background-size: cover;
-                /* min-height: 100vh; */
-                background-position: center;
-                font-family:標楷體,Atial;
-            }
-        </style>
+        body {
+            width: 100%;
+            height: 176vh;
+            z-index: -1;
+            background-image:url(imgslim/background/store.jpg);
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            background-attachment:fixed;
+            /* min-height: 100vh; */
+            font-family: 標楷體, Atial;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="backgroundimg7 animated fadeIn"></div>
+    <!-- <div class="backgroundimg7 animated fadeIn"></div> -->
     <div class="container2 animated fadeIn">
         <div class="logo">
-            <a href="index.html"><img src="img/logo-18.png" alt=""></a>
+            <a href="index.html">
+                <img src="/02.-素材/01-IMG/logo_icom/最終logo-03.png" alt="">
+            </a>
         </div>
         <div class="list1">
             <ul>
-                <li><a href="storypage.html" class="mainbtn">
+                <li>
+                    <a href="storypage.html" class="mainbtn">
                         陶
-                    <br>板
-                    <br>故
-                    <br>事
-                </a></li>
-                <li><a href="menupage.html" class="mainbtn">
-                    和
-                    <br>風
-                    <br>料
-                    <br>理</a></li>
+                        <br>板
+                        <br>故
+                        <br>事
+                    </a>
+                </li>
+                <li>
+                    <a href="menupage.html" class="mainbtn">
+                        和
+                        <br>風
+                        <br>料
+                        <br>理</a>
+                </li>
             </ul>
         </div>
         <div class="list2">
             <ul>
-                <li><a href="memberpage.html" class="mainbtn">
-                    會
-                    <br>員
-                    <br>登
-                    <br>入</a></li>
-                <li><a href="goodnews.html" class="mainbtn">
-                    好
-                    <br>康
-                    <br>快
-                    <br>報</a></li>
-                <li><a href="storepage.html" class="mainbtn">
-                    陶
-                    <br>板
-                    <br>門
-                    <br>市</a></li>
-                <li><a href="comment form.html" class="mainbtn">
-                    陶
-                    <br>陶
-                    <br>不
-                    <br>絕</a></li>
+                <li>
+                    <a href="memberpage.html" class="mainbtn">
+                        會
+                        <br>員
+                        <br>登
+                        <br>入</a>
+                </li>
+                <li>
+                    <a href="goodnews.html" class="mainbtn">
+                        好
+                        <br>康
+                        <br>快
+                        <br>報</a>
+                </li>
+                <li>
+                    <a href="storepage.html" class="mainbtn">
+                        陶
+                        <br>板
+                        <br>門
+                        <br>市</a>
+                </li>
+                <li>
+                    <a href="comment form.html" class="mainbtn">
+                        陶
+                        <br>陶
+                        <br>不
+                        <br>絕</a>
+                </li>
             </ul>
         </div>
         <div class="list3">
             <ul>
-              <li>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                  <a href=""><i class="fab fa-google"></i></a>
-              </li>
-        </ul>
+                <li>
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="footer">
             Copyright © Karuisawa all rights reserved.
-            <br><a href="#">designed by BROTHERS</a>
+            <br>
+            <a href="#">designed by BROTHERS</a>
         </div>
         <div class="content">
             <div class="main demo">
                 <div class="storearea mainNavg" id="tabs3">
                     <ul>
-                        <li id="tab_a-1" onclick="changeTab(1)" class="nowShowA"><a href="#" class="storebtn">北部</a></li>
-                        <li id="tab_a-2" onclick="changeTab(2)" class="otherA"><a href="#" class="storebtn">中部</a></li>
-                        <li id="tab_a-3" onclick="changeTab(3)" class="otherA"><a href="#" class="storebtn">南部</a></li>
+                        <li id="tab_a-1" onclick="changeTab(1)" class="nowShowA">
+                            <a href="#" class="storebtn">│北部│</a>
+                        </li>
+                        <li id="tab_a-2" onclick="changeTab(2)" class="otherA">
+                            <a href="#" class="storebtn">│中部│</a>
+                        </li>
+                        <li id="tab_a-3" onclick="changeTab(3)" class="otherA">
+                            <a href="#" class="storebtn">│南部│</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- <div class="storeline"></div> -->
@@ -96,203 +130,241 @@
                     <div class="storeinf">
                         <div class="storepic storepic1"></div>
                         <div class="storetxt">
-                          <p>台中河南店
-                          <br>電話:04-2452-5755
-                          <br>地址:台中市西屯區河南路二段363之3號2樓<P></div>
+                            <p>台中河南店
+                                <br>電話:04-2452-5755
+                                <br>地址:台中市西屯區河南路二段363之3號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic2"></div>
                         <div class="storetxt">
-                          <p>台中崇德店
-                          <br>電話:04-2236-5586
-                          <br>地址:台中市北屯區崇德路二段130號2樓<P></div>   
+                            <p>台中崇德店
+                                <br>電話:04-2236-5586
+                                <br>地址:台中市北屯區崇德路二段130號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic3"></div>
                         <div class="storetxt">
-                          <p>台中台灣大道店
-                          <br>電話:04-2319-9323
-                          <br>地址:台中市西區台灣大道二段406號2樓<P></div>
+                            <p>台中台灣大道店
+                                <br>電話:04-2319-9323
+                                <br>地址:台中市西區台灣大道二段406號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic4"></div>
                         <div class="storetxt">
-                          <p>南投家樂福店
-                          <br>電話:049-224-8430
-                          <br>地址:南投市三和三路21號2樓<P></div>
+                            <p>南投家樂福店
+                                <br>電話:049-224-8430
+                                <br>地址:南投市三和三路21號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic5"></div>
                         <div class="storetxt">
-                          <p>豐原向陽店
-                          <br>電話:04-2523-1600
-                          <br>地址:台中市豐原區向陽路230號2樓<P></div>
+                            <p>豐原向陽店
+                                <br>電話:04-2523-1600
+                                <br>地址:台中市豐原區向陽路230號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic6"></div>
                         <div class="storetxt">
-                          <p>大里德芳南店
-                          <br>電話:04-2486-3539
-                          <br>地址:台中市大里區德芳南路191號2樓<P></div>
+                            <p>大里德芳南店
+                                <br>電話:04-2486-3539
+                                <br>地址:台中市大里區德芳南路191號2樓
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic7"></div>
                         <div class="storetxt">
-                          <p>彰化東民店
-                          <br>電話:04-727-9385
-                          <br>地址:彰化市東民街39號<P></div>
+                            <p>彰化東民店
+                                <br>電話:04-727-9385
+                                <br>地址:彰化市東民街39號
+                                <P>
+                        </div>
                     </div>
                     <div class="storeinf">
                         <div class="storepic storepic8"></div>
                         <div class="storetxt">
-                          <p>苗栗中山店
-                          <br>電話:037-373-262
-                          <br>地址:苗栗市中山路475號<P></div>
+                            <p>苗栗中山店
+                                <br>電話:037-373-262
+                                <br>地址:苗栗市中山路475號
+                                <P>
+                        </div>
                     </div>
                 </div>
                 <div class="store showTabDiv" id="tabs-1" style="display:none;width:100%;">
-                        <div class="storeinf">
-                            <div class="storepic storepic9"></div>
-                            <div class="storetxt">
-                              <p>台北南京東店
-                              <br>電話:02-2504-1711
-                              <br>地址:台北市中山區南京東路二段178號2樓<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic10"></div>
-                            <div class="storetxt">
-                              <p>台北復興北店
-                              <br>電話:02-2718-1268
-                              <br>地址:台北市松山區復興北路375號<P></div>   
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic11"></div>
-                            <div class="storetxt">
-                              <p>台北重慶南店
-                              <br>02-2382-6788
-                              <br>地址:台北市中正區重慶南路一段58號2樓<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic12"></div>
-                            <div class="storetxt">
-                              <p>台北光復南店
-                              <br>電話:02-2741-1600
-                              <br>地址:台北市大安區光復南路286號B1<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic13"></div>
-                            <div class="storetxt">
-                              <p>中和中山店
-                              <br>電話:02-3234-3819
-                              <br>地址:新北市中和區中山路二段369號<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic14"></div>
-                            <div class="storetxt">
-                              <p>新店北新店
-                              <br>電話:02-8911-2633
-                              <br>地址:新北市新店區北新路二段108號2樓<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic15"></div>
-                            <div class="storetxt">
-                              <p>新北投光明店
-                              <br>電話:02-2894-0925
-                              <br>地址:台北市北投區光明路217號2樓<P></div>
-                        </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic16"></div>
-                            <div class="storetxt">
-                              <p>基隆信一店
-                              <br>電話:02-2425-5500
-                              <br>地址:基隆市中正區信一路177號12樓<P></div>
+                    <div class="storeinf">
+                        <div class="storepic storepic9"></div>
+                        <div class="storetxt">
+                            <p>台北南京東店
+                                <br>電話:02-2504-1711
+                                <br>地址:台北市中山區南京東路二段178號2樓
+                                <P>
                         </div>
                     </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic10"></div>
+                        <div class="storetxt">
+                            <p>台北復興北店
+                                <br>電話:02-2718-1268
+                                <br>地址:台北市松山區復興北路375號
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic11"></div>
+                        <div class="storetxt">
+                            <p>台北重慶南店
+                                <br>02-2382-6788
+                                <br>地址:台北市中正區重慶南路一段58號2樓
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic12"></div>
+                        <div class="storetxt">
+                            <p>台北光復南店
+                                <br>電話:02-2741-1600
+                                <br>地址:台北市大安區光復南路286號B1
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic13"></div>
+                        <div class="storetxt">
+                            <p>中和中山店
+                                <br>電話:02-3234-3819
+                                <br>地址:新北市中和區中山路二段369號
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic14"></div>
+                        <div class="storetxt">
+                            <p>新店北新店
+                                <br>電話:02-8911-2633
+                                <br>地址:新北市新店區北新路二段108號2樓
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic15"></div>
+                        <div class="storetxt">
+                            <p>新北投光明店
+                                <br>電話:02-2894-0925
+                                <br>地址:台北市北投區光明路217號2樓
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic16"></div>
+                        <div class="storetxt">
+                            <p>基隆信一店
+                                <br>電話:02-2425-5500
+                                <br>地址:基隆市中正區信一路177號12樓
+                                <P>
+                        </div>
+                    </div>
+                </div>
                 <div class="store showTabDiv" id="tabs-3" style="display:none;width:100%;">
-                        <div class="storeinf">
-                            <div class="storepic storepic17"></div>
-                            <div class="storetxt">
-                                <p>屏東太平洋店
+                    <div class="storeinf">
+                        <div class="storepic storepic17"></div>
+                        <div class="storetxt">
+                            <p>屏東太平洋店
                                 <br>電話:08-733-8135
-                                <br>地址:屏東市中華路80號4樓<P></div>
+                                <br>地址:屏東市中華路80號4樓
+                                <P>
                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic18"></div>
-                            <div class="storetxt">
-                                <p>高雄夢時代店
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic18"></div>
+                        <div class="storetxt">
+                            <p>高雄夢時代店
                                 <br>電話:07-823-0120
-                                <br>地址:高雄市前鎮區中華五路789號7樓<P></div>   
-                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic19"></div>
-                            <div class="storetxt">
-                                <p>高雄裕誠店
+                                <br>地址:高雄市前鎮區中華五路789號7樓
+                                <P>
+                        </div>
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic19"></div>
+                        <div class="storetxt">
+                            <p>高雄裕誠店
                                 <br>電話:07-550-9983
-                                <br>地址:高雄市左營區裕誠路475號2樓<P></div>
+                                <br>地址:高雄市左營區裕誠路475號2樓
+                                <P>
                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic20"></div>
-                            <div class="storetxt">
-                                <p>高雄中山店
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic20"></div>
+                        <div class="storetxt">
+                            <p>高雄中山店
                                 <br>電話:07-282-2225
-                                <br>地址:高雄市新興區中山二路482號<P></div>
+                                <br>地址:高雄市新興區中山二路482號
+                                <P>
                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic21"></div>
-                            <div class="storetxt">
-                                <p>台南忠義店
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic21"></div>
+                        <div class="storetxt">
+                            <p>台南忠義店
                                 <br>電話:06-221-7603
-                                <br>地址:台南市中西區忠義路二段26號<P></div>
+                                <br>地址:台南市中西區忠義路二段26號
+                                <P>
                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic22"></div>
-                            <div class="storetxt">
-                                <p>台南勝利店
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic22"></div>
+                        <div class="storetxt">
+                            <p>台南勝利店
                                 <br>電話:06-200-6189
-                                <br>地址:台南市東區勝利路118號2樓<P></div>
+                                <br>地址:台南市東區勝利路118號2樓
+                                <P>
                         </div>
-                        <div class="storeinf">
-                            <div class="storepic storepic23"></div>
-                            <div class="storetxt">
-                                 <p>嘉義林森西店
+                    </div>
+                    <div class="storeinf">
+                        <div class="storepic storepic23"></div>
+                        <div class="storetxt">
+                            <p>嘉義林森西店
                                 <br>電話:05-228-8239
-                                <br>地址:嘉義市東區林森西路153號2樓<P></div>
+                                <br>地址:嘉義市東區林森西路153號2樓
+                                <P>
                         </div>
+                    </div>
                 </div>
                 <div class="blank"></div>
-         </div> 
-         <div class="title titlestore">
-            <!-- <div class="line">
             </div>
-            <div class="text">
-                陶<br>板<br>門<br>市
-            </div>  -->
-        </div>   
-        </div>
-           
+            <div class="title titlestore">
+            </div>
         </div>
     </div>
-
+    </div>
+    <!-- <div class="purple"></div> -->
     <script>
-            function changeTab(index)  
-            {  
-                document.getElementById("tabs-"+index).style.display="flex";     
-                // document.getElementById("tab_a-"+index).className="nowShowA";
-                var i=1;  
-                while(document.getElementById("tabs-"+i))  
-                {  
-                    if(i!=index){  
-                    clearDisplay(i);  
+        function changeTab(index) {
+            document.getElementById("tabs-" + index).style.display = "flex";
+            // document.getElementById("tab_a-"+index).className="nowShowA";
+            var i = 1;
+            while (document.getElementById("tabs-" + i)) {
+                if (i != index) {
+                    clearDisplay(i);
                     // document.getElementById("tab_a-"+i).className="otherA";
-                    }  
-                    i++;  
-                }  
-            }  
-            function clearDisplay(index)  
-            {  
-                document.getElementById("tabs-"+index).style.display="none";  
-            }  
-        </script>
+                }
+                i++;
+            }
+        }
+        function clearDisplay(index) {
+            document.getElementById("tabs-" + index).style.display = "none";
+        }  
+    </script>
 
 </body>
+
 </html>
