@@ -7,35 +7,22 @@
 body
 {
 margin:0;
-<<<<<<< HEAD
-/* background-image: url(img/index_pic.jpg); */
-/* background-size:cover; */
-/* background-position:center; */
-=======
 background-size:cover;
 background-position:center;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 height: 100vh;
 }
 .nav      /*頂部浮動導覽條*/
 {
     width: 100%;
     height: 80px;
-<<<<<<< HEAD
-    display:inline-flex;
-=======
     display: inline-flex;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
     position: relative;
     top:0;
-<<<<<<< HEAD
-=======
     z-index: 2;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .dropdown
 {
@@ -143,49 +130,59 @@ height: 100vh;
 .whole1
 {
     width:100%;
-    height:70vh;
+    /* height:70vh; */
     position: absolute;
-    top:0;
+    top:60px;
     right:0;
-    bottom:0;
+    bottom:60px;
     left:0;
     margin:auto;
-<<<<<<< HEAD
-    display: flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
-    border: solid 1px;
-=======
     display: inline-flex;
     flex-direction:row;
     flex-wrap: nowrap;
     justify-content:space-around;
     align-items:center;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
+}
+.whole3
+{
+    width:100%;
+    height:70vh;
+    position: absolute;
+    top:60px;
+    right:0;
+    bottom:60px;
+    left:0;
+    margin:auto;
+    display: inline-flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items:center;
 }
 .leftbox
 {
     width:20%;
     height: 95%;
 }
-.midbox
+.bbox
 {
     width: 50%;
-    height: 95%;
+    height:100%;
     display: flex;
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
 }
-<<<<<<< HEAD
-=======
+.midboxl
+{
+    width: 75%;
+    height: 95%;
+}
 .midbox3
 {
     width: 50%;
     height: 95%;
 }
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 .rightbox
 {
     width: 20%;
@@ -194,17 +191,9 @@ height: 100vh;
 .leftboxMini
 {
     width: 90%;
-<<<<<<< HEAD
-    height: 200px;
-    top:0;
-    margin: 0 auto;
-    background-image: url(img/feedback.png);
-    background-size: cover;
-=======
     height: 175px;
     top:0;
     margin: 0 auto;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .midboxTop
 {
@@ -216,33 +205,33 @@ height: 100vh;
 {
     width: 90%;
     height: 48%;
-<<<<<<< HEAD
     border: solid 1px;
 }
 .boxtxt 
 {
-    float: left;
+    display: inline-block;
     width: 25%;
     height: 100%;
     position: relative;
 }
 .boxtxt2
 {
-    float:left;
+    display: inline-block;
     width: 25%;
     height: 100%;
     position: relative;
 }
 .boxinput
 {
-    float:left;
+    display: inline-block;
     width: 75%;
     height: 100%;
     position: relative;
 }
 .selctor
 {
-    float:left;
+    
+    display: inline-block;
     width: 75%;
     height: 100%;
     position: relative;
@@ -251,35 +240,38 @@ height: 100vh;
 {
     width: 40%;
     height: 100%;
+    margin-top: 10px;
     line-height: 30px;
     box-sizing: border-box;
     font-size: 15px;
-    float: left;
+    display: inline-block;
     color:black;
 }
 .boxinput2
 {
-    float:right;
+    display: inline-block;
     width: 60%;
     height:100%;
     position: relative;
 }
 #input1
 {
-    margin-top: 30px;
-    width: 100%;
+    width: 82%;
+    height: 30%;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
 #input2
 {
-    width: 100%;
+    width: 82%;
+    height: 30%;
+    margin-left: 5px;
 }
 .box3input
 {
     width: 60%;
     height: 100px;
     position: absolute;
-=======
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .midboxTopInfor
 {
@@ -293,12 +285,7 @@ height: 100vh;
 .midboxbottomInfor
 {
     width: 90%;
-<<<<<<< HEAD
-    height: 90%;
-    border: solid 1px;
-=======
     height: 90%; 
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .mobilebox1
 {
@@ -355,20 +342,26 @@ height: 100vh;
 .midboxMenu
 {
     width: 50%;
+    /* height: 95%; */
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.midboxMenu3
+{
+    width: 50%;
     height: 95%;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
-<<<<<<< HEAD
-=======
 .midboxMenu2
 {
     width: 75%;
     height: 95%;
 }
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 .midtext1
 {
     width:80%;
@@ -385,23 +378,13 @@ height: 100vh;
 .newsbox
 {
     width: 95%;
-<<<<<<< HEAD
-    height: 22%;
-    border: solid 1px;
-=======
     height: 16%;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .boxtitle
 {
     width: 80%;
     height: calc(10% - 2px);
-<<<<<<< HEAD
-    border:solid 1px;
-    margin-bottom: 10%;
-=======
     text-align: center;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .coating
 {
@@ -426,30 +409,6 @@ height: 100vh;
     height: 10%;
     border: solid 1px;
 }
-<<<<<<< HEAD
-.feedback
-{
-    width: 80%;
-    height: 10%;
-}
-.feedback2
-{
-    width: 80%;
-    height: 20%;
-}
-.feedback3
-{
-    width: 80%;
-    height: 5%;
-    border: solid 1px;
-}
-.feedback4
-{
-    width: 30%;
-    height: calc(100% - 1px);
-    margin-left: 10%;
-    border: solid 1px;
-=======
 .comment_form
 {
     width: 100%;
@@ -531,7 +490,7 @@ height: 100vh;
 .box3
 {
     width: 100%;
-    height: 12%;
+    height:100px;
     border-bottom:dotted 1px;
 }
 .box3 .boxtxt3
@@ -709,13 +668,13 @@ height: 100vh;
 
 .box8{
     width: 100%;
-    height: 8%;
+    height: 25px;
 }
 .box8 .block5
 {
     position: relative;
     width: 90%;
-    height:90%;
+    height:25px;
     left:70%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -725,6 +684,7 @@ height: 100vh;
 {
     width:100px ;
     height: 100px;
+    margin-bottom: 30px;
 }
 
 .mark_pic
@@ -746,16 +706,24 @@ height: 100vh;
 
 .bundles 
 {
-    width: 100%;
+    width: 90%;
     height: 95%;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .member_form
+{
+    width: 80%;
+    /* height:80%; */
+    border:solid 1px;
+    position: relative;
+    margin:0 auto;
+}
+.member_form2
 {
     width: 80%;
     height:80%;
@@ -784,7 +752,7 @@ height: 100vh;
 {
     font-size: 20px;
     width: 100%;
-    height: 12%;
+    height:12%;
     text-align: center;
 }
 .block4
@@ -797,7 +765,7 @@ height: 100vh;
 {
     width: 100%;
 }
-.member_form .block5
+.member_form2 .block5
 {
     font-size: 20px;
     width: 100%;
@@ -807,11 +775,12 @@ height: 100vh;
 .block6{
     font-size: 20px;
     width: 100%;
-    height: 24%;
+    height:24%;
 }
 .block6 ul li{
     list-style: none;
-    margin:5px;
+    margin:10px;
+    margin-left: 35px;
 }
 .block6 ul li a{
     text-decoration: none;
@@ -822,7 +791,6 @@ height: 100vh;
 .menu1
 {
     width: 50%;
->>>>>>> 3d9681f39cd5f146b8650156d252910aebecd303
 }
 .fa-twitter:before 
 {
