@@ -1419,20 +1419,12 @@ height: 100vh;
 .dropdownbtn{
     margin-bottom:10px;
     }
-}
 .dropdown-menu a{
     text-decoration: none;
     color: black;
     margin-left: 5px;
     font-family: "標楷體" ;
 }
-/* .forms
-{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    position: relative;
-} */
 .icon-bar1 {
     position:absolute;
     left:50%;
@@ -1497,7 +1489,6 @@ height: 100vh;
     background-size: cover;
     z-index: 2;
     display: block;
-
 }
 .indexText2
 {
