@@ -800,7 +800,7 @@ body{
     background-size: cover;
 }
 .dessertpic4{
-    background-image: url(iimgslim/menuV4/6de-04.jpg);
+    background-image: url(imgslim/menuV4/6de-04.png);
     background-size: cover;
 }
 .foodtile{
@@ -1108,27 +1108,27 @@ p{
     margin-bottom: 15px;
 }
 .titlestore{
-    background-image: url(titlePic/分店資訊-02.png);
+    background-image: url(imgslim/titlePic/分店資訊-02.png);
     background-size: cover;
 }
 .titlestory{
-    background-image:url(titlePic/陶板故事-02.png);
+    background-image:url(imgslim/titlePic/陶板故事-02.png);
     background-size: cover;    
 }
 .titlemenupage{
-    background-image:url(titlePic/和風料理.png);
+    background-image:url(imgslim/titlePic/和風料理.png);
     background-size: cover;    
 }
 .titlememberpage{
-    background-image:url(titlePic/會員專區-02.png);
+    background-image:url(imgslim/titlePic/會員專區-02.png);
     background-size: cover;     
 }
 .titlegoodnews{
-    background-image:url(titlePic/好康快報-02.png);
+    background-image:url(imgslim/titlePic/好康快報-02.png);
     background-size: cover; 
 }
 .titlecomment{
-    background-image:url(titlePic/淘淘不絕-02.png);
+    background-image:url(imgslim/titlePic/淘淘不絕-02.png);
     background-size: cover;     
 }
 .salad_01{
