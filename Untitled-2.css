@@ -10,10 +10,11 @@ a:hover   {color:red;}
 a:active  {color:aqua;}
 body
 {
-margin:0;
-background-size:cover;
-background-position:center;
-height: 100vh;
+    margin:0;
+    background-image: url(img/background/mobile_background.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
 }
 .nav      /*頂部浮動導覽條*/
 {
@@ -181,6 +182,10 @@ height: 100vh;
 {
     width: 75%;
     height: 95%;
+}
+.midbox2
+{
+    width: 75%;
 }
 .midbox3
 {
