@@ -18,17 +18,6 @@ a:active  {color:aqua;}
     animation-delay: 0.2s;
     background-attachment:fixed;
 }
-/* .backgroundimg2{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(background/story2-02.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
 .backgroundimg3{
     width: 100%;
     height: 170vh;
@@ -40,40 +29,6 @@ a:active  {color:aqua;}
     animation-delay: 0.2s;
     background-attachment:fixed;
 }
-/* .backgroundimg4{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/comment.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
-/* .backgroundimg5{         
-    width: 100%;
-    height: 590vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
-/* .backgroundimg6{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-
-} */
 .backgroundimg7{
     width: 100%;
     height: 176vh;
@@ -1472,10 +1427,6 @@ height: 100vh;
 .iconbox   /*靠右icon包覆*/
 {
     width: 20%;
-    /* display: inline-flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;*/
     position:absolute;
     left: 85%;
     top:50%;
