@@ -1196,7 +1196,7 @@ p{
             animation-delay: 4s;
 }
 .sliderpic1{
-    background-image:url(background/首頁3.jpg);
+    background-image:url(imgslim/首頁3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1293,7 +1293,7 @@ p{
     overflow: hidden;
 }
 .height{
-    height: 180px !important;
+    height: 200px !important;
     transition:1s ease;
 }
 .footer1{
@@ -1348,6 +1348,7 @@ height: 100vh;
     height: 80px;
     display: block;
     flex-direction:row;
+    /* background-color: rgba(0,0,0,0.4); */
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
@@ -1440,7 +1441,7 @@ height: 100vh;
     top: 20%;
     left:40%;
     transform: translate(-50%,-50%);
-    background-image:url(img/logofont.png);
+    background-image:url(img/mobile_logotxt-02.png);
     background-size: cover;
     z-index: 2;
     display: block;
@@ -1453,7 +1454,7 @@ height: 100vh;
     top:30%;
     left:60%;
     transform: translate(-50%,-50%);
-    background-image: url(img/logotext.png);
+    background-image: url(img/mobile_logotxt-03.png);
     background-size: cover;
     z-index: 2;
     display: block;
