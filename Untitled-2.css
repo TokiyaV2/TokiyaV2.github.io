@@ -183,6 +183,12 @@ body
     width: 75%;
     height: 460px;
 }
+.midboxvip
+{
+    width: 75%;
+    height: 460px;
+    margin-top: 40px;
+}
 .midbox2
 {
     width: 75%;
@@ -808,8 +814,9 @@ body
 }
 .block6 ul li a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-size: 15px;
+    background-color: rgba(0,0,0,0.4)
 }
 
 .menu1
