@@ -4,7 +4,7 @@
     font-family: 微軟正黑體;
     text-decoration: none;
 }
-a:link    {color:white;}
+a:link    {color:black;}
 a:visited {color:green;}
 a:hover   {color:red;}
 a:active  {color:aqua;}
