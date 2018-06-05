@@ -1348,6 +1348,7 @@ height: 100vh;
     height: 80px;
     display: block;
     flex-direction:row;
+    background-color: rgba(0,0,0,0.4);
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
