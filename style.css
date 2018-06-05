@@ -3,22 +3,15 @@ body{
     margin:0;
     padding: 0;
 }
+a:link    {color:blue;}
+a:visited {color:green;}
+a:hover   {color:red;}
+a:active  {color:aqua;}
 .backgroundimg{
     width: 100%;
     height: 100vh;
     z-index: -1;
-    background-image:url(background/member.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-}
-.backgroundimg2{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(background/story2-02.jpg);
+    background-image:url(imgslim/member.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -35,40 +28,6 @@ body{
     position: absolute;
     animation-delay: 0.2s;
     background-attachment:fixed;
-}
-.backgroundimg4{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/comment.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-}
-.backgroundimg5{
-    width: 100%;
-    height: 590vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-}
-.backgroundimg6{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-
 }
 .backgroundimg7{
     width: 100%;
@@ -251,7 +210,7 @@ body{
     height: 722px;
     margin-bottom: 30px;
     background-size: cover;
-    background-image: url(background/aaa01234.png)
+    background-image: url(imgslim/background/aaa01234.png)
 }
 .menutext{
     width: 100%;
@@ -268,10 +227,10 @@ body{
     top:150px;
     left:50%;
     transform: translate(-50%,0);
-    border-bottom:solid 1px;
+    border-bottom:solid 2px;
 }
 .menuline2{
-    width: 6vw;
+    width: 7vw;
     height: 1vw;
     position: absolute;
     top:180px;
@@ -283,7 +242,7 @@ body{
 .menupic{
     width: 100%;
     position: absolute;
-    height:500px;
+    height:630px;
     top:200px;
     display:flex;
     flex-wrap: wrap;
@@ -408,7 +367,7 @@ body{
     position: absolute;
     top:50px;
     display:flex;
-    justify-content: space-around;    
+    justify-content: space-evenly;    
 }
 .storearea ul li{
     list-style: none;
@@ -700,19 +659,19 @@ body{
     height: 750px;
 }
 .saladpic1{
-    background-image: url("img/menuV4/1sa-01.jpg");
+    background-image: url(imgslim/menuV4/1sa-01.jpg);
     background-size: cover;
 }
 .saladpic2{
-    background-image: url(img/menuV4/1salad-02.jpg);
+    background-image: url(imgslim/menuV4/1salad-02.jpg);
     background-size: cover;
 }
 .saladpic3{
-    background-image: url(img/menuV4/1salad-03.jpg);
+    background-image: url(imgslim/menuV4/1salad-03.jpg);
     background-size: cover;
 }
 .saladpic4{
-    background-image: url(img/menuV4/1salad-04.jpg);
+    background-image: url(imgslim/menuV4/1salad-04.jpg);
     background-size: cover;
 }
 .appetizer{
@@ -720,11 +679,11 @@ body{
     height: 450px;
 }
 .appetizerpic1{
-    background-image: url(img/menuV4/2en-01.jpg);
+    background-image: url(imgslim/menuV4/2en-01.jpg);
     background-size: cover;
 }
 .appetizerpic2{
-    background-image: url(img/menuV4/2en-02.jpg);
+    background-image: url(imgslim/menuV4/2en-02.jpg);
     background-size: cover;
 }
 .soup{
@@ -732,15 +691,15 @@ body{
     height: 750px;
 }
 .souppic1{
-    background-image: url(img/menuV4/3so-01.jpg);
+    background-image: url(imgslim/menuV4/3so-01.jpg);
     background-size: cover;
 }
 .souppic2{
-    background-image: url(img/menuV4/3so-02.jpg);
+    background-image: url(imgslim/menuV4/3so-02.jpg);
     background-size: cover;
 }
 .souppic3{
-    background-image: url(img/menuV4/3so-03.jpg);
+    background-image: url(imgslim/menuV4/3so-03.jpg);
     background-size: cover;
 }
 .meal{
@@ -748,31 +707,31 @@ body{
     height: 1400px;
 }
 .mealpic1{
-    background-image: url(img/menuV4/4ma-01.jpg);
+    background-image: url(imgslim/menuV4/4ma-01.jpg);
     background-size: cover;
 }
 .mealpic2{
-    background-image: url(img/menuV4/4ma-02.jpg);
+    background-image: url(imgslim/menuV4/4ma-02.jpg);
     background-size: cover;
 }
 .mealpic3{
-    background-image: url(img/menuV4/4ma-03.jpg);
+    background-image: url(imgslim/menuV4/4ma-03.jpg);
     background-size: cover;
 }
 .mealpic4{
-    background-image: url(img/menuV4/4ma-04.jpg);
+    background-image: url(imgslim/menuV4/4ma-04.jpg);
     background-size: cover;
 }
 .mealpic5{
-    background-image: url(img/menuV4/4ma-05.jpg);
+    background-image: url(imgslim/menuV4/4ma-05.jpg);
     background-size: cover;
 }
 .mealpic6{
-    background-image: url(img/menuV4/4ma-06.jpg);
+    background-image: url(imgslim/menuV4/4ma-06.jpg);
     background-size: cover;
 }
 .mealpic7{
-    background-image: url(img/menuV4/4ma-07.jpg);
+    background-image: url(imgslim/menuV4/4ma-07.jpg);
     background-size: cover;
 }
 .food{
@@ -780,7 +739,7 @@ body{
     height: 450px;
 }
 .foodpic1{
-    background-image: url(img/menuV4/5ri-01.jpg);
+    background-image: url(imgslim/menuV4/5ri-01.jpg);
     background-size: cover;
 }
 .dessert{
@@ -788,32 +747,34 @@ body{
     height: 750px;
 }
 .dessertpic1{
-    background-image: url(img/menuV4/6de-01.jpg);
+    background-image: url(imgslim/menuV4/6de-01.jpg);
     background-size: cover;
 }
 .dessertpic2{
-    background-image: url(img/menuV4/6de-02.jpg);
+    background-image: url(imgslim/menuV4/6de-02.jpg);
     background-size: cover;
 }
 .dessertpic3{
-    background-image: url(img/menuV4/6de-03.jpg);
+    background-image: url(imgslim/menuV4/6de-03.jpg);
     background-size: cover;
 }
 .dessertpic4{
-    background-image: url(img/menuV4/6de-04.jpg);
+    background-image: url(imgslim/menuV4/6de-04.png);
     background-size: cover;
 }
 .foodtile{
-    width: 100%;
+    width: 40%;
     height: 50px;
     font-size:35px;
     text-align: center;
     color:white;
+    background-color: black;
+    margin: 0 auto;
 }
 .foodpng{
     width: 100%;
     height: 650px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -823,7 +784,7 @@ body{
 .foodpng1{
     width: 100%;
     height: 350px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -832,7 +793,7 @@ body{
 .foodpng2{
     width: 100%;
     height: 350px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -842,7 +803,7 @@ body{
 .foodjpg{
     width: 100%;
     height: 1310px;
-    border-bottom:solid 1px;
+    border-bottom:dashed 2px white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -872,303 +833,303 @@ p{
     margin-left: 10px;
 }
 .storepic1{
-    background-image: url(store/instore/middle/1.jpg);
+    background-image: url(imgslim/store/instore/middle/1.jpg);
     background-size: cover;
     
 }
 .storepic1:hover{
-    background-image: url(store/address/middle/1.jpg);
+    background-image: url(imgslim/store/address/middle/1.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic2{
-    background-image: url(store/instore/middle/2.jpg);
+    background-image: url(imgslim/store/instore/middle/2.jpg);
     background-size: cover;
 }
 .storepic2:hover{
-    background-image: url(store/address/middle/2.jpg);
+    background-image: url(imgslim/store/address/middle/2.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic3{
-    background-image: url(store/instore/middle/3.jpg);
+    background-image: url(imgslim/store/instore/middle/3.jpg);
     background-size: cover;
 }
 .storepic3:hover{
-    background-image: url(store/address/middle/3.jpg);
+    background-image: url(imgslim/store/address/middle/3.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic4{
-    background-image: url(store/instore/middle/4.jpg);
+    background-image: url(imgslim/store/instore/middle/4.jpg);
     background-size: cover;
 }
 .storepic4:hover{
-    background-image: url(store/address/middle/4.jpg);
+    background-image: url(imgslim/store/address/middle/4.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic5{
-    background-image: url(store/instore/middle/5.jpg);
+    background-image: url(imgslim/store/instore/middle/5.jpg);
     background-size: cover;
 }
 .storepic5:hover{
-    background-image: url(store/address/middle/5.jpg);
+    background-image: url(imgslim/store/address/middle/5.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic6{
-    background-image: url(store/instore/middle/6.jpg);
+    background-image: url(imgslim/store/instore/middle/6.jpg);
     background-size: cover;
 }
 .storepic6:hover{
-    background-image: url(store/address/middle/6.jpg);
+    background-image: url(imgslim/store/address/middle/6.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic7{
-    background-image: url(store/instore/middle/7.jpg);
+    background-image: url(imgslim/store/instore/middle/7.jpg);
     background-size: cover;
 }
 .storepic7:hover{
-    background-image: url(store/address/middle/7.jpg);
+    background-image: url(imgslim/store/address/middle/7.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic8{
-    background-image: url(store/instore/middle/8.jpg);
+    background-image: url(imgslim/store/instore/middle/8.jpg);
     background-size: cover;
 }
 .storepic8:hover{
-    background-image: url(store/address/middle/8.jpg);
+    background-image: url(imgslim/store/address/middle/8.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic9{
-    background-image: url(store/instore/north/1.jpg);
+    background-image: url(imgslim/store/instore/north/1.jpg);
     background-size: cover;
 }
 .storepic9:hover{
-    background-image: url(store/address/north/1.jpg);
+    background-image: url(imgslim/store/address/north/1.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic10{
-    background-image: url(store/instore/north/2.jpg);
+    background-image: url(imgslim/store/instore/north/2.jpg);
     background-size: cover;
 }
 .storepic10:hover{
-    background-image: url(store/address/north/2.jpg);
+    background-image: url(imgslim/store/address/north/2.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic11{
-    background-image: url(store/instore/north/3.jpg);
+    background-image: url(imgslim/store/instore/north/3.jpg);
     background-size: cover;
 }
 .storepic11:hover{
-    background-image: url(store/address/north/3.jpg);
+    background-image: url(imgslim/store/address/north/3.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic12{
-    background-image: url(store/instore/north/4.jpg);
+    background-image: url(imgslim/store/instore/north/4.jpg);
     background-size: cover;
 }
 .storepic12:hover{
-    background-image: url(store/address/north/4.jpg);
+    background-image: url(imgslim/store/address/north/4.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic13{
-    background-image: url(store/instore/north/5.jpg);
+    background-image: url(imgslim/store/instore/north/5.jpg);
     background-size: cover;
 }
 .storepic13:hover{
-    background-image: url(store/address/north/5.jpg);
+    background-image: url(imgslim/store/address/north/5.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic14{
-    background-image: url(store/instore/north/6.jpg);
+    background-image: url(imgslim/store/instore/north/6.jpg);
     background-size: cover;
 }
 .storepic14:hover{
-    background-image: url(store/address/north/6.jpg);
+    background-image: url(imgslim/store/address/north/6.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic15{
-    background-image: url(store/instore/north/7.jpg);
+    background-image: url(imgslim/store/instore/north/7.jpg);
     background-size: cover;
 }
 .storepic15:hover{
-    background-image: url(store/address/north/7.jpg);
+    background-image: url(imgslim/store/address/north/7.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic16{
-    background-image: url(store/instore/north/8.jpg);
+    background-image: url(imgslim/store/instore/north/8.jpg);
     background-size: cover;
 }
 .storepic16:hover{
-    background-image: url(store/address/north/8.jpg);
+    background-image: url(imgslim/store/address/north/8.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic17{
-    background-image: url(store/instore/south/1.jpg);
+    background-image: url(imgslim/store/instore/south/1.jpg);
     background-size: cover;
     
 }
 .storepic17:hover{
-    background-image: url(store/address/south/1.jpg);
+    background-image: url(imgslim/store/address/south/1.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic18{
-    background-image: url(store/instore/south/2.jpg);
+    background-image: url(imgslim/store/instore/south/2.jpg);
     background-size: cover;
 }
 .storepic18:hover{
-    background-image: url(store/address/south/2.jpg);
+    background-image: url(imgslim/store/address/south/2.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic19{
-    background-image: url(store/instore/south/3.jpg);
+    background-image: url(imgslim/store/instore/south/3.jpg);
     background-size: cover;
 }
 .storepic19:hover{
-    background-image: url(store/address/south/3.jpg);
+    background-image: url(imgslim/store/address/south/3.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic20{
-    background-image: url(store/instore/south/4.jpg);
+    background-image: url(imgslim/store/instore/south/4.jpg);
     background-size: cover;
 }
 .storepic20:hover{
-    background-image: url(store/address/south/4.jpg);
+    background-image: url(imgslim/store/address/south/4.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic21{
-    background-image: url(store/instore/south/5.jpg);
+    background-image: url(imgslim/store/instore/south/5.jpg);
     background-size: cover;
 }
 .storepic21:hover{
-    background-image: url(store/address/south/5.jpg);
+    background-image: url(imgslim/store/address/south/5.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic22{
-    background-image: url(store/instore/south/6.jpg);
+    background-image: url(imgslim/store/instore/south/6.jpg);
     background-size: cover;
 }
 .storepic22:hover{
-    background-image: url(store/address/south/6.jpg);
+    background-image: url(imgslim/store/address/south/6.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .storepic23{
-    background-image: url(store/instore/south/7.jpg);
+    background-image: url(imgslim/store/instore/south/7.jpg);
     background-size: cover;
 }
 .storepic23:hover{
-    background-image: url(store/address/south/7.jpg);
+    background-image: url(imgslim/store/address/south/7.jpg);
     transition: 0.5s ease-in;
     background-size: cover;
 }
 .goodnewspic1{
-    background-image: url(goodnews/news_5.jpg);
+    background-image: url(imgslim/news_5.jpg);
     background-size: cover;
 }
 .goodnewspic2{
-    background-image: url(goodnews/news_6.jpg);
+    background-image: url(imgslim/news_6.jpg);
     background-size: cover;
 }
 .goodnewspic3{
-    background-image: url(goodnews/news-3.jpg);
+    background-image: url(imgslim/news-3.jpg);
     background-size: cover;
 }
 .goodnewspic4{
-    background-image: url(goodnews/news_4.jpg);
+    background-image: url(imgslim/news_4.jpg);
     background-size: cover;
 }
 .goodnewspic5{
-    background-image: url(goodnews/news-1.jpg);
+    background-image: url(imgslim/news-1.jpg);
     background-size: cover;
 }
 .goodnewspic6{
-    background-image: url(goodnews/news-2.jpg);
+    background-image: url(imgslim/news-2.jpg);
     background-size: cover;
     margin-bottom: 15px;
 }
 .titlestore{
-    background-image: url(titlePic/分店資訊-02.png);
+    background-image: url(imgslim/titlePic/分店資訊-02.png);
     background-size: cover;
 }
 .titlestory{
-    background-image:url(titlePic/陶板故事-02.png);
+    background-image:url(imgslim/titlePic/陶板故事-02.png);
     background-size: cover;    
 }
 .titlemenupage{
-    background-image:url(titlePic/和風料理.png);
+    background-image:url(imgslim/titlePic/和風料理.png);
     background-size: cover;    
 }
 .titlememberpage{
-    background-image:url(titlePic/會員專區-02.png);
+    background-image:url(imgslim/titlePic/會員專區-02.png);
     background-size: cover;     
 }
 .titlegoodnews{
-    background-image:url(titlePic/好康快報-02.png);
+    background-image:url(imgslim/titlePic/好康快報-02.png);
     background-size: cover; 
 }
 .titlecomment{
-    background-image:url(titlePic/淘淘不絕-02.png);
+    background-image:url(imgslim/titlePic/淘淘不絕-02.png);
     background-size: cover;     
 }
 .salad_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/salad.png);
+    background-image: url(imgslim/menupng/salad.png);
     background-size: contain;
 }
 .soup_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/soup.png);
+    background-image: url(imgslim/menupng/soup.png);
     background-size:contain;
 }
 .entree_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/entree.png);
+    background-image: url(imgslim/menupng/entree.png);
     background-size: contain;
 }
 .main_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/main.png);
+    background-image: url(imgslim/menupng/main.png);
     background-size: contain;
 }
 .rice_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/rice.png);
+    background-image: url(imgslim/menupng/rice.png);
     background-size: contain;
 }
 .dessert_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/dessert.png);
+    background-image: url(imgslim/menupng/dessert.png);
     background-size: contain;
 }
 .drink_01{
     width: 164px;
     height: 152px;
-    background-image: url(menupng/drink.png);
+    background-image: url(imgslim/menupng/drink.png);
     background-size: contain;
 }
 .none{
@@ -1243,4 +1204,282 @@ p{
     background-image: url(imgslim/首頁-07.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.all{
+    width: 83.3vw;
+    height: calc(100% - 16vw);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    /* background-image: url(img/中間圖-03.png); */
+    background-size: cover;
+}
+.pic1,.pic2,.pic3,.pic4{
+    width: 24%;
+    height: 49%;
+}
+.pic5{
+    width: 50%;
+    height:100%;
+}
+.logo2{
+    width:33%;
+    max-width: 420px;
+    height: 33vw;
+    max-height: 420px;
+    border:solid 0px;
+    border-radius: 50%;
+    position: absolute;;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-image: url(/02.-素材/01-IMG/logo_icom/enter_logo3-02.png);
+    background-size: cover;
+}
+.enter{
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    bottom:35vh;
+    left:48%;
+    text-align: center;
+}
+.enter_btn{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    border:solid 0;
+    border:solid 1px;
+}
+.enter_btn:hover{
+    background-color: white;
+    color:purple;
+    
+}
+.pic1{
+    background-image: url(imgslim/左上-04.jpg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(imgslim/左下-04.jpg);
+    background-size: cover;
+}
+.pic3{
+    background-image: url(imgslim/右上-04.jpg);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(imgslim/右下-04.jpg);
+    background-size: cover;
+}
+.pic5{
+    background-image: url(imgslim/大-03.jpg);
+    background-size: cover;
+}
+.navbar{
+     height: 0;
+     overflow: hidden;
+     display:none;
+}
+.dropdown-menu{
+    height: 0;
+    overflow: hidden;
+}
+.height{
+    height: 180px !important;
+    transition:1s ease;
+}
+.footer1{
+    display:none;
+}
+.indexText1{
+    display:none;
+}
+.indexText2{
+    display:none;
+}
+@media screen and ( max-width:414px) {
+
+.allcontainer{
+     display:none;
+}
+.contanier{
+     display:none;
+}
+.list1{
+    display: none;
+}
+.list2{
+    display:none;
+}
+.list3{
+    display:none;
+}
+.font{
+    display: none;
+    height: 0;
+}
+.smalltitle{
+    display: none;
+    height: 0;
+}
+.slider_container{
+    display: none;
+    height: 0;
+}
+body
+{
+margin:0;
+background-image: url(img/index_pic.jpg);
+background-size:cover;
+background-position:center;
+height: 100vh;
+}
+.navbar      /*頂部浮動導覽條*/
+{
+    width: 100%;
+    height: 80px;
+    display: block;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    position: relative;
+    top:0;
+    z-index: 2;
+}
+.dropdown
+{   
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left: 15%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.dropdown-menu{
+    width: 80px;
+    height: 0px;
+    z-index: 1000;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left:30px;
+    overflow:hidden
+}
+.dropdownbtn{
+    margin-bottom:10px;
+    }
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-family: "標楷體" ;
+}
+.icon-bar1 {
+    position:absolute;
+    left:50%;
+    top:25%;
+    background-color:black;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar2 {
+    position:absolute;
+    left: 50%;
+    top:50%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+  .icon-bar3 {
+    position:absolute;
+    left: 50%;
+    top:75%;
+    background-color:black;
+    display: block;
+    height: 4px;
+    width: 30px;
+    transform: translate(-50% , -50%);
+  }
+.mark2     /*置中標誌*/
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-image: url(img/logo-18.png);
+    background-size: cover;
+}
+.iconbox   /*靠右icon包覆*/
+{
+    width: 20%;
+    position:absolute;
+    left: 85%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.indexText1
+{
+    width: 55%;
+    height: 100px;
+    position:absolute;
+    top: 20%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    background-image:url(img/logofont.png);
+    background-size: cover;
+    z-index: 2;
+    display: block;
+}
+.indexText2
+{
+    width: 55%;
+    height: 30px;
+    position:absolute;
+    top:30%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    background-image: url(img/logotext.png);
+    background-size: cover;
+    z-index: 2;
+    display: block;
+}
+.footer1
+{
+    width: 256px;
+    height: 60px;
+    position: fixed;
+    bottom:0;
+    left:calc(50% - 128px);
+    background-image: url(img/worktime.png);
+    display:block;
+}
+.fa-twitter:before 
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-google::before
+{
+    color: white;
+    margin-right: 10px;
+}
+.fa-facebook-f::before
+{
+    color:white;
+}
 }

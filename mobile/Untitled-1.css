@@ -4,6 +4,7 @@
     font-family: 微軟正黑體;
     text-decoration: none;
 }
+
 body
 {
 margin:0;
@@ -166,10 +167,11 @@ height: 100vh;
 .leftboxMini
 {
     width: 90%;
-    height: 140px;
+    height: 200px;
     top:0;
     margin: 0 auto;
-    border: solid 1px;
+    background-image: url(img/feedback.png);
+    background-size: cover;
 }
 .midboxTop
 {
@@ -308,11 +310,10 @@ height: 100vh;
     height: 10%;
     border: solid 1px;
 }
-.feedback1
+.feedback
 {
     width: 80%;
     height: 10%;
-    border: solid 1px;
 }
 .feedback2
 {
