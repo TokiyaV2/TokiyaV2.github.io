@@ -1293,7 +1293,7 @@ p{
     overflow: hidden;
 }
 .height{
-    height: 180px !important;
+    height: 200px !important;
     transition:1s ease;
 }
 .footer1{
@@ -1348,6 +1348,7 @@ height: 100vh;
     height: 80px;
     display: block;
     flex-direction:row;
+    background-color: rgba(0,0,0,0.4);
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
