@@ -1472,12 +1472,12 @@ height: 100vh;
 .fa-twitter:before 
 {
     color: white;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .fa-google::before
 {
     color: white;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .fa-facebook-f::before
 {
