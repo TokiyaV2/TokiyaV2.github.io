@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120355651-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120355651-1');
+    </script>
+
     <title>陶板屋</title>
     <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-55323.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -15,10 +25,11 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <style>
         body {
-            font-family: 標楷體,Arial;
+            font-family: 標楷體, Arial;
         }
     </style>
 </head>
+
 <body>
     <div class="allcontainer" id="all">
         <div class="all">
@@ -39,7 +50,7 @@
         <div class="smalltitle"></div>
         <div class="logo">
             <a href="index.html">
-                <img src="/02.-素材/01-IMG/logo_icom/最終logo-03.png">
+                <img src="imgslim/最終logo-03.png">
             </a>
         </div>
         <div class="list1">
@@ -128,10 +139,10 @@
 
     <div class="navbar">
         <div class="dropdown" id="dropdown">
-                    <div class="icon-bar1"></div>
-                    <div class="icon-bar2"></div>
-                    <div class="icon-bar3"></div>
-            </div>
+            <div class="icon-bar1"></div>
+            <div class="icon-bar2"></div>
+            <div class="icon-bar3"></div>
+        </div>
         <a class="mark2" href="index.html"></a>
         <div class="iconbox">
             <i class="fab fa-twitter"></i>
@@ -143,13 +154,25 @@
     <div class="indexText2"></div>
     <div class="footer1"></div>
     <div class="dropdown-menu" id="dropdown-menu">
-        <div class="dropdownbtn"><a href="storymobile.html">陶板故事</a></div>
-        <div class="dropdownbtn"><a href="menumobile.html">和風料理</a></div>
-        <div class="dropdownbtn"><a href="vipmobile.html">會員登入</a></div>
-        <div class="dropdownbtn"><a href="newsmobile.html">好康快報</a></div>
-        <div class="dropdownbtn"><a href="Informationmobile.html">陶板門市</a></div>
-        <div class="dropdownbtn"><a href="feedbackmobile.html">陶陶不絕</a></div>
-    </div>    
+        <div class="dropdownbtn">
+            <a href="storymobile.html">陶板故事</a>
+        </div>
+        <div class="dropdownbtn">
+            <a href="menumobile.html">和風料理</a>
+        </div>
+        <div class="dropdownbtn">
+            <a href="vipmobile.html">會員登入</a>
+        </div>
+        <div class="dropdownbtn">
+            <a href="newsmobile.html">好康快報</a>
+        </div>
+        <div class="dropdownbtn">
+            <a href="Informationmobile.html">陶板門市</a>
+        </div>
+        <div class="dropdownbtn">
+            <a href="feedbackmobile.html">陶陶不絕</a>
+        </div>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -165,7 +188,7 @@
             $('#all').addClass('animated fadeOut');
             // $('#all').fadeOut(1000);
         }
-        odropdown.onclick = function() {
+        odropdown.onclick = function () {
             odropdownmenu.classList.toggle("height");
         }
     </script>

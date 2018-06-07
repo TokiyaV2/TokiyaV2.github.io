@@ -3,6 +3,10 @@ body{
     margin:0;
     padding: 0;
 }
+/* a:link    {color:blue;}
+a:visited {color:green;}
+a:hover   {color:red;}
+a:active  {color:aqua;} */
 .backgroundimg{
     width: 100%;
     height: 100vh;
@@ -14,17 +18,6 @@ body{
     animation-delay: 0.2s;
     background-attachment:fixed;
 }
-/* .backgroundimg2{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(background/story2-02.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
 .backgroundimg3{
     width: 100%;
     height: 170vh;
@@ -36,40 +29,6 @@ body{
     animation-delay: 0.2s;
     background-attachment:fixed;
 }
-/* .backgroundimg4{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/comment.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
-/* .backgroundimg5{         
-    width: 100%;
-    height: 590vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-} */
-/* .backgroundimg6{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    background-image:url(imgslim/background/menu2-01.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    animation-delay: 0.2s;
-    background-attachment:fixed;
-
-} */
 .backgroundimg7{
     width: 100%;
     height: 176vh;
@@ -248,7 +207,7 @@ body{
 }
 .brandstory{
     width: 100%;
-    height: 722px;
+    height: 772px;
     margin-bottom: 30px;
     background-size: cover;
     background-image: url(imgslim/background/aaa01234.png)
@@ -800,7 +759,7 @@ body{
     background-size: cover;
 }
 .dessertpic4{
-    background-image: url(iimgslim/menuV4/6de-04.jpg);
+    background-image: url(imgslim/menuV4/6de-04.png);
     background-size: cover;
 }
 .foodtile{
@@ -1108,27 +1067,27 @@ p{
     margin-bottom: 15px;
 }
 .titlestore{
-    background-image: url(titlePic/分店資訊-02.png);
+    background-image: url(imgslim/titlePic/分店資訊-02.png);
     background-size: cover;
 }
 .titlestory{
-    background-image:url(titlePic/陶板故事-02.png);
+    background-image:url(imgslim/titlePic/陶板故事-02.png);
     background-size: cover;    
 }
 .titlemenupage{
-    background-image:url(titlePic/和風料理.png);
+    background-image:url(imgslim/titlePic/和風料理.png);
     background-size: cover;    
 }
 .titlememberpage{
-    background-image:url(titlePic/會員專區-02.png);
+    background-image:url(imgslim/titlePic/會員專區-02.png);
     background-size: cover;     
 }
 .titlegoodnews{
-    background-image:url(titlePic/好康快報-02.png);
+    background-image:url(imgslim/titlePic/好康快報-02.png);
     background-size: cover; 
 }
 .titlecomment{
-    background-image:url(titlePic/淘淘不絕-02.png);
+    background-image:url(imgslim/titlePic/淘淘不絕-02.png);
     background-size: cover;     
 }
 .salad_01{
@@ -1237,7 +1196,7 @@ p{
             animation-delay: 4s;
 }
 .sliderpic1{
-    background-image:url(background/首頁3.jpg);
+    background-image:url(imgslim/首頁3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1281,7 +1240,7 @@ p{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    background-image: url(/02.-素材/01-IMG/logo_icom/enter_logo3-02.png);
+    background-image: url(imgslim/enter_logo3-02.png);
     background-size: cover;
 }
 .enter{
@@ -1334,7 +1293,7 @@ p{
     overflow: hidden;
 }
 .height{
-    height: 180px !important;
+    height: 200px !important;
     transition:1s ease;
 }
 .footer1{
@@ -1389,6 +1348,7 @@ height: 100vh;
     height: 80px;
     display: block;
     flex-direction:row;
+    /* background-color: rgba(0,0,0,0.4); */
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
@@ -1468,10 +1428,6 @@ height: 100vh;
 .iconbox   /*靠右icon包覆*/
 {
     width: 20%;
-    /* display: inline-flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;*/
     position:absolute;
     left: 85%;
     top:50%;
@@ -1485,7 +1441,7 @@ height: 100vh;
     top: 20%;
     left:40%;
     transform: translate(-50%,-50%);
-    background-image:url(img/logofont.png);
+    background-image:url(img/mobile_logotxt-02.png);
     background-size: cover;
     z-index: 2;
     display: block;
@@ -1498,7 +1454,7 @@ height: 100vh;
     top:30%;
     left:60%;
     transform: translate(-50%,-50%);
-    background-image: url(img/logotext.png);
+    background-image: url(img/mobile_logotxt-03.png);
     background-size: cover;
     z-index: 2;
     display: block;
@@ -1516,12 +1472,12 @@ height: 100vh;
 .fa-twitter:before 
 {
     color: white;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .fa-google::before
 {
     color: white;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .fa-facebook-f::before
 {
